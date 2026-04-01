@@ -1,0 +1,502 @@
+[
+  {
+    "id": "1",
+    "prompt": "Ľudmila dá štyri celé kocky ľadu na panvicu na začiatku prvej minúty, potom päť na začiatku druhej minúty a ešte nejaké na začiatku tretej minúty, no v štvrtej minúte nepridá žiadne. Ak bol priemerný počet kociek ľadu pridaných na panvicu, počas prípravy praženice, päť za minútu, koľko celých kociek ľadu sa nachádza na panvici na konci tretej minúty?\n\nOptions:\nA) 30\nB) 0\nC) 20\nD) 10\nE) 11\nF) 5\n\nAnswer:",
+    "model_answer": "The average number of ice cubes added per minute over the 4-minute preparation period is 5, so the total number added is \\(4 \\times 5 = 20\\). The ice cubes added are 4 at the beginning of the first minute, 5 at the beginning of the second minute, \\(x\\) at the beginning of the third minute, and 0 in the fourth minute. Thus, \\(4 + 5 + x + 0 = 20\\), so \\(x = 11\\). By the end of the third minute, all ice cubes added so far are still on the pan, totaling \\(4 + 5 + 11 = 20\\).\n\nAnswer: C) 20"
+  },
+  {
+    "id": "2",
+    "prompt": "Gustáv zbiera nálepky do albumu. V pondelok nalepil 6 nálepiek. V utorok nalepil 7 nálepiek. V stredu nalepil neznámy počet nálepiek. Vo štvrtok nenalepil žiadne nálepky. Ak bol priemerný počet nálepiek nalepených za deň počas týchto štyroch dní 8, koľko nálepiek mal Gustáv v albume na konci stredy?\n\nOptions:\nA) 19\nB) 6\nC) 7\nD) 8\nE) 32\nF) 24\n\nAnswer:",
+    "model_answer": "Priemerný počet nálepiek nalepených za štyri dni je 8, čo znamená, že celkový počet za tieto dni je \\(8 \\times 4 = 32\\). Pondelok a utorok dáva spolu \\(6 + 7 = 13\\) nálepiek. Vo štvrtok nepridal žiadne. Preto počet nálepiek nalepených v stredu je \\(32 - 13 = 19\\). Na konci stredy teda mal v albume \\(6 + 7 + 19 = 32\\) nálepiek.\n\nOdpoveď: E) 32"
+  },
+  {
+    "id": "3",
+    "prompt": "Tomáš hádže do fontány mince pre šťastie. Počas prvej minúty hodí do fontány 3 mince, počas druhej minúty pridá 5 mincí a počas tretej minúty ešte 1 mincu. Potom už nepridá žiadne mince, no pri fontáne ostane ešte niekoľko hodín. Ak bol priemerný počet mincí hodených do fontány počas prvých troch minút rovný 3 za jednu minútu, koľko mincí hodil Tomáš do fontány počas prvej hodiny, strávenej pri fontáne?\n\nOptions:\nA) 11\nB) 8\nC) 13\nD) 9\nE) 7\nF) 10\n\nAnswer:",
+    "model_answer": "Tomáš hodí mince iba počas prvých troch minút: v prvej minúte 3 mince, v druhej 5 mincí a v tretej 1 mincu. To je spolu \\(3 + 5 + 1 = 9\\) mincí. Potom už žiadne ďalšie mince nehádže, takže počas celej prvej hodiny, ktorá trvá 60 minút, nepridá nič navyše. Celkový počet mincí hodených do fontány počas prvej hodiny je preto 9.\n\nOdpoveď: D) 9.\n\n\\boxed{D}"
+  },
+  {
+    "id": "4",
+    "prompt": "Žonglér vyhodí pevnú modrú loptičku meter do vzduchu a potom pevnú fialovú loptičku (rovnakej veľkosti) dva metre do vzduchu. Potom opatrne vylezie na vrchol vysokého rebríka a na hlave balansuje so žltým balónom. Kde sa teraz s najväčšou pravdepodobnosťou nachádza fialová loptička vo vzťahu k modrej loptičke?\n\nOptions:\nA) V rovnakej výške ako modrá loptička.\nB) V rovnakej výške ako žltý balón.\nC) Vnútri modrej loptičky.\nD) Nad žltým balónom.\nE) Pod modrou loptičkou.\nF) Nad modrou loptičkou.\n\nAnswer:",
+    "model_answer": "Po vyhodení loptičiek a následnom opatrnom výstupe na vysoký rebrík uplynie dostatočný čas na to, aby obe loptičky dopadli na zem. Preto sa s najväčšou pravdepodobnosťou nachádzajú na zemi v rovnakej výške.\n\nOdpoveď: A"
+  },
+  {
+    "id": "5",
+    "prompt": "Drahoslav pustí do vzduchu dva balóny. Jeden balón je čerstvo naplnený héliom a druhý balón je naplnený obyčajným vzduchom. Obe púšťa súčasne z rovnakej výšky. Kde sa pravdepodobne nachádza balón naplnený vzduchom vo vzťahu ku balónu naplnenému héliom po jednej minúte?\n\nOptions:\nA) Vyššie ako balón s héliom.\nB) V rovnakej výške ako balón s héliom.\nC) Na zemi.\nD) Stále vzduchom klesá nadol.\nE) Mierne nižšie oproti balónu s héliom, no stále vo vzduchu.\nF) Niekde v stratosfére.\n\nAnswer:",
+    "model_answer": "Balón naplnený vzduchom je ťažší ako vzduch v okolí, preto začne okamžite klesať a pravdepodobne dopadne na zem do jednej minúty, najmä ak bol pustený z nižšej výšky (napr. z ruky). Balón s héliom je naopak ľahší a rýchlo stúpa. Preto je najpravdepodobnejšie, že po minúte sa balón s vzduchom nachádza na zemi, zatiaľ čo balón s héliom je vo vzduchu.\n\nSprávna odpoveď je teda **C) Na zemi.**"
+  },
+  {
+    "id": "6",
+    "prompt": "Jakub, Ján a Jonáš sa zúčastňujú pretekov mužov na 200 metrov a štartujú z rovnakej pozície. Keď sa preteky začnú, 30 ročný Jakub pomaly počíta od -10 do 10, kým sa potáca za cieľovou čiarou 200 metrov, 20 ročný športovec Ján sa ponáhľa po schodoch miestneho obytného vežiaka, na pár sekúnd sa zastaví, aby obdivoval strechy ostatných mestských vežiakov a potom sa pustí do behu na 200 metrov, zatiaľ čo vyčerpaný 50 ročný Jonáš stihne prečítať dlhý status na Facebooku, zamávať kamarátovi a premýšľať pár minút o večeri, kým prejde cieľovou čiarou 200 metrov. Kto pravdepodobne skončil posledný?\n\nOptions:\nA) Ján pravdepodobne skončil posledný.\nB) Jakub a Jonáš pravdepodobne skončili poslední, v rovnakom čase.\nC) Jonáš pravdepodobne skončil posledný.\nD) Jakub pravdepodobne skončil posledný.\nE) Všetci skončili súčasne.\nF) Ján a Jonáš pravdepodobne skončili poslední.\n\nAnswer:",
+    "model_answer": "Jonáš strávi najviac času nebežeckými aktivitami (čítanie statusu, premýšľanie) a ako vyčerpaný 50-ročný prejde 200 metrov pomalou chôdzou. Naproti tomu Jakub má len krátke oneskorenie z počítania a potom beží, zatiaľ čo Ján, aj keď strávi čas výbehom po schodoch, je 20-ročný športovec a beh 200 metrov zvládne rýchlo. Preto je najpravdepodobnejšie, že Jonáš skončil posledný.\n\nOdpoveď: C"
+  },
+  {
+    "id": "7",
+    "prompt": "Rebeka, Radovan a Richard sa zúčastňujú maratónu v Košiciach. Tento ročník však prebieha netradične a čas sa im začne počítať až potom, čo prejdú 100 metrov na kolobežke a následne zjedia veľký zmrzlinový pohár. Rebeka okamžite vyrazí na kolobežke vpred, no po 30 metroch zastaví, aby si urobila rýchlu fotku so zlatým mačiatkom na chodníku. Radovan si pred štartom zapne svoju obľúbenú pesničku do slúchadiel, potom sa vezie svižne, no cestou kolobežkou sa po 50 metroch zastaví a dá si pauzu pri stánku s limonádou, kde najprv vyčká krátku radu ľudí, ktorí taktiež čakajú na limonádu. Richard vyštartuje až o minútu neskôr, lebo si šnuroval tenisky, no keď sa konečne rozbehne, ide naplno bez prestávok. Kto pravdepodobne zje zmrzlinový pohár ako posledný?\n\nOptions:\nA) Radovan pravdepodobne zje pohár ako posledný.\nB) Richard pravdepodobne zje pohár ako posledný.\nC) Rebeka pravdepodobne zje pohár ako posledná.\nD) Všetci traja zjedli pohár súčasne.\nE) Rebeka a Radovan pravdepodobne zjedli pohár ako poslední.\nF) Richard a Rebeka pravdepodobne zjedli pohár ako poslední.\n\nAnswer:",
+    "model_answer": "Richard štartuje s jednominútovým oneskorením, zatiaľ čo Rebeka a Radovan majú po ceste len krátke prestávky. Keďže kolobežky sa pohybujú pomerne rýchlo a prestávky sú pravdepodobne kratšie ako minúta, Richard s najväčšou pravdepodobnosťou dokončí prejdenie 100 metrov ako posledný. Pretože ďalej všetci jedia zmrzlinový pohár približne rovnako dlho, Richard ho zje pravdepodobne ako posledný.\n\nAnswer: B"
+  },
+  {
+    "id": "8",
+    "prompt": "Sú tu dve sestry, Monika, ktorá vždy hovorí nepravdy a Andrea, ktorá vždy klame. Neviete, ktorá je ktorá. Môžete položiť jednu otázku jednej sestre, aby ste zistili, ktorá z dvoch ciest vedie k pokladu. Ktorú otázku by ste mali položiť, aby ste našli poklad (ak sú správne dve alebo viac otázok, správna odpoveď bude tá kratšia)?\n\nOptions:\nA) Čo by povedala vaša sestra, keby som sa jej spýtal, ktorá cesta vedie k pokladu?\nB) Ako sa volá vaša sestra?\nC) Ktorá cesta vedie k pokladu?\nD) Akú cestu si myslíte, že si vyberiem, ak by ste mali hádať?\nE) Čo je obsahom pokladu?\nF) Aké je telefónne číslo vašej sestry?\n\nAnswer:",
+    "model_answer": "Správna otázka je možnosť A: „Čo by povedala vaša sestra, keby som sa jej spýtal, ktorá cesta vedie k pokladu?“ \n\nTáto otázka funguje, pretože obe sestry vždy klamú. Nech je poklad na ľavej alebo pravej ceste, odpoveď ktorejkoľvek sestry bude vždy správna cesta. Vysvetlenie:\n\n- Ak je poklad vľavo:\n  - Sestra, na ktorú sa pýtate (X), je klamárka. \n  - Jej sestra (Y), tiež klamárka, by na priamu otázku „Ktorá cesta vedie k pokladu?“ odpovedala nepravdivo, teda „pravá“.\n  - Keď sa X opýtame, čo by odpovedala Y, X musí klamať, takže povie opak toho, čo by Y povedala. Teda povie „ľavá“ (čo je pravda).\n\n- Ak je poklad vpravo:\n  - Y by na priamu otázku odpovedala „ľavá“ (nepravda).\n  - X potom klame a povie opak, teda „pravá“ (pravda).\n\nOstatné možnosti neposkytujú spoľahlivý spôsob, ako zistiť správnu cestu k pokladu jedinou otázkou."
+  },
+  {
+    "id": "9",
+    "prompt": "Peter potrebuje resuscitáciu od svojho najlepšieho priateľa Pankráca, jediného človeka v okolí. Pankrácove posledné správy na telefóne s Petrom sa však týkali útoku, ktorý podnikol Peter na Pankráca v detstve, kvôli jeho príliš drahej zbierke Pokémon kariet. Pankrác si všetky svoje texty dlhodobo ukladá do cloudu. Pomôže Pankrác Petrovi?\n\nOptions:\nA) Pankrác pravdepodobne nepomôže.\nB) Pankrác veľmi pravdepodobne pomôže.\nC) Pankrác, síce s veľkou nechuťou, no nakoniec pomôže.\nD) Pankrác nepomôže.\nE) Pankrác bude resuscitáciu predstierať.\nF) Pankrác bude hlboko uvažovať o tom, či pomôže.\n\nAnswer:",
+    "model_answer": "C) Pankrác, síce s veľkou nechuťou, no nakoniec pomôže."
+  },
+  {
+    "id": "10",
+    "prompt": "Zatiaľ čo Jana bola na kilometre vzdialená od bezstarostného a vyrovnaného Jakuba, bola na rande s Jaromírom, ktorého spoznala cez internetovú zoznamku. Jakub je už niekoľko týždňov na lodi bez prístupu na internet a Jana je prvá, ktorá sa po návrate bývalého partnera Jakuba ozve a oznámi mu (s istotou a vážnosťou) novinky o jej drastickej histamínovej diéte, skákajúcom novom psovi, rýchlo sa blížiacej globálnej jadrovej vojne a nakoniec o jej novej známosti zo zoznamky, teda o Jaromírovi. Jakub je oveľa viac šokovaný, než si Jana dokázala predstaviť. Z čoho je pravdepodobne Jakub najviac zničený?\n\nOptions:\nA) Zo širších medzinárodných udalostí.\nB) Z absencie internetu na lodi.\nC) Zo skákajúceho psa.\nD) Z morskej choroby.\nE) Z drastickej histamínovej diéty.\nF) Z jej novej známosti zo zoznamky.\n\nAnswer:",
+    "model_answer": "Najpravdepodobnejšou príčinou Jakubovho šoku a zničenia je informácia o Janej novej známosti, pretože naznačuje, že medzi nimi došlo k citovému rozchodu alebo nečakanej zmene vo vzťahu. Ostatné novinky sú buď vedľajšie, alebo také, ktoré by nemali rovnaký emocionálny dopad.\n\nAnswer: F"
+  },
+  {
+    "id": "11",
+    "prompt": "Jakub má 24 rokov a je milý, pozorný a ospravedlňujúci sa človek. Stojí v modernej, minimalistickej, inak prázdnej kúpeľni osvetlenej neónovou žiarovkou, čistí si zuby a pritom sa pozerá do zrkadla s rozmermi 20x20cm. Jakub si všimne, že neónová žiarovka s priemerom 10 cm padá rýchlosťou približne 3 metre za sekundu smerom k hlave plešatého muža, ktorého pozorne skúma v zrkadle (jeho hlava je meter pod žiarovkou), zdvihne zrak, ale nezachytí žiarovku skôr, ako dopadne na plešatého muža. Plešatý muž zakričí „čo je to za blbca?!“ a odíde z kúpeľne. Mal by Jakub, ktorý pozná telefónne číslo muža, napísať v nejakom momente zdvorilé ospravedlnenie? Označ odpoveď, ktorá nastane s najväčšou pravdepodobnosťou v bežnom ľudskom živote.\n\nOptions:\nA) Nie, pretože žiarovke sa v podstate nedalo vyhnúť.\nB) Áno, bolo by v súlade s jeho charakterom, keby poslal zdvorilú správu, v ktorej by sa ospravedlnil za incident.\nC) Nie, pretože by to bolo zbytočné. Ak by mal Jakub tú možnosť, určite by sa snažil zachrániť ho pred padajúcou žiarovkou, no nestihol to a aj keď ho to mrzí, jednoducho to nestihol a ďalej to riešiť nebude.\nD) Áno, pretože by to mohlo zmierniť pretrvávajúce napätie zo stretnutia.\nE) Áno, pretože Jakub to predvídal a vo všeobecnosti by sme sa vždy mali ospravedlniť, ak sa nám nepodarí zabrániť škodám.\nF) Áno, pretože je to slušné, aj keď to nebola vaša chyba.\n\nAnswer:",
+    "model_answer": "Podľa popisu je Jakub milý, pozorný a má tendenciu sa ospravedlňovať. V situácii, keď žiarovka dopadla na plešatého muža, aj keď Jakub nemohol incidentu zabrániť, je pravdepodobné, že by konal v súlade so svojím charakterom a poslal zdvorilé ospravedlnenie. To zodpovedá možnosti B, ktorá priamo odkazuje na jeho osobnosť a je najpravdepodobnejšia v kontexte bežného správania človeka s takýmito vlastnosťami.\n\n**Odpoveď: B**"
+  },
+  {
+    "id": "12",
+    "prompt": "Na poličke je len zelené jablko, červená hruška a ružová broskyňa. To sú aj príslušné farby šatiek troch neposedných študentov v miestnosti. Pod ružovú broskyňu sa potom položí žltý banán a na ružovú broskyňu sa položí fialová slivka. Chlapec s červenou šatkou zje červenú hrušku, chlapec so zelenou šatkou zje zelené jablko a tri ďalšie plody. Čo zje chlapec s ružovou šatkou?\n\nOptions:\nA) Zje len žltý banán.\nB) Zje rúžové, žlté a fialové ovocie.\nC) Zje len fialovú slivku.\nD) Zje ružovú broskyňu.\nE) Zje dva kusy ovocia.\nF) Nezje žiadne ovocie.\n\nAnswer:",
+    "model_answer": "The boy with the pink apron eats no fruit because all fruits are consumed by the other two boys.\n\nThe red apron boy eats the red pear, and the green apron boy eats the green apple plus the three remaining fruits (pink peach, yellow banana, purple plum). This accounts for all five fruits, leaving none for the pink apron boy.\n\nAnswer: F"
+  },
+  {
+    "id": "13",
+    "prompt": "Ľudmila si v miestnosti A pripraví hromadu 5 sendvičov s čerstvou šunkou (bez omáčok a korenín) a hneď potom lepiacou páskou prilepí vrchnú časť najvyššieho sendviča na spodnú časť svojej vychádzkovej palice. Potom prejde so svojou vychádzkovou palicou do miestnosti B. Koľko celých sendvičov je teraz v každej miestnosti?\n\nOptions:\nA) 4 celé sendviče v miestnosti A, 0 celých sendvičov v miestnosti B.\nB) Nikde nie sú žiadne sendviče.\nC) 4 celé sendviče v miestnosti B a 1 celý sendvič v miestnosti A.\nD) Všetkých 5 celých sendvičov je v miestnosti B.\nE) 4 celé sendviče v miestnosti B a 1 celý sendvič v miestnosti A.\nF) Všetkých 5 celých sendvičov je v miestnosti A.\n\nAnswer:",
+    "model_answer": "Ľudmila pripraví v miestnosti A hromadu 5 sendvičov. Prilepí vrchnú časť (vrchný kúsok chleba) najvyššieho sendviča na spodnú časť palice. Tým pádom tento sendvič prestáva byť celý, pretože mu chýba vrchná časť. Zvyšné 4 sendviče zostávajú neporušené. Keď odíde s palicou do miestnosti B, zoberie so sebou len prilepený kúsok chleba, nie celý sendvič. V miestnosti A teda zostávajú 4 celé sendviče, zatiaľ čo v miestnosti B nie je žiadny celý sendvič.\n\nOdpoveď: A"
+  },
+  {
+    "id": "14",
+    "prompt": "Luxusné športové auto sa pohybuje na sever rýchlosťou 30 km/h po cestnom moste dlhom 250 m, ktorý vedie ponad rieku tečúcu rýchlosťou 5 km/h smerom na východ. Vietor fúka rýchlosťou 1 km/h smerom na západ, dostatočne pomaly na to, aby nerušil chodcov, ktorí fotia auto z oboch strán cestného mosta, keď auto prechádza. V kufri auta bola uložená rukavica, ktorá však vykĺzne z otvoru a vypadne, keď je auto v polovici cesty cez most. Predpokladajme, že auto pokračuje rovnakým smerom a rovnakou rýchlosťou a vietor a rieka sa naďalej pohybujú tak, ako bolo uvedené. O 1 hodinu neskôr je vodotesná rukavica (vzhľadom na stred mosta) približne?\n\nOptions:\nA) 4km východne.\nB) <1km severne.\nC) >30km severozápadne.\nD) 30km severne.\nE) >30km severovýchodne.\nF) 5km+ východne.\n\nAnswer:",
+    "model_answer": "The glove falls from the car at the midpoint of the bridge into the river. It is carried east by the river current at 5 km/h and opposed by the west wind at 1 km/h, resulting in a net eastward drift of 4 km/h. After 1 hour, it is approximately 4 km east of the drop point. Northward motion is negligible due to rapid damping by water resistance.\n\nAnswer: A) 4km východne."
+  },
+  {
+    "id": "15",
+    "prompt": "Máte šesť koní a chcete usporiadať preteky, aby ste zistili, ktorý je najrýchlejší. Aký je najlepší spôsob, ako to urobiť?\n\nOptions:\nA) Usporiadam šesť samostatných pretekov, kde každý kôň beží sám a ja budem zaznamenávať čas.\nB) Usporiadam preteky na jednej pretekárskej dráhe s aspoň šiestimi pruhmi a na základe poradia, v ktorom pretnú cieľovú čiaru, určím, ktorý je najrýchlejší.\nC) Usporiadam vyraďovacie preteky po dvojiciach.\nD) Nechám kone bežať v náhodných pároch a spočítam, ktorý kôň vyhral najviac pretekov.\nE) Usporiadam tri preteky po dvoch koňoch, následne finálové preteky víťazov.\nF) Vyberiem najrýchlejšieho koňa na základe jeho vzhľadu.\n\nAnswer:",
+    "model_answer": "Najlepší spôsob, ako určiť najrýchlejšieho koňa, je usporiadať preteky, v ktorých všetkých šesť koní súťaží naraz na dráhe s dostatočným počtom pruhov. Táto metóda je rýchla, priama a objektívne určí víťaza na základe poradia v cieli.\n\n**Odpoveď: B**"
+  },
+  {
+    "id": "16",
+    "prompt": "Predpokladajme, že sa zúčastníte hernej šou a máte na výber z troch dverí: Za jednými dverami je zlatá tehla a za ostatnými malý papierik s nápisom „Tak snáď nabudúce.“. Vyberiete si, povedzme, dvere číslo 1 a moderátor sa vás opýta: „Nechcete si namiesto toho vybrať radšej dvere číslo 2?“. Je pre vás akýmkoľvek spôsobom výhodné v tento moment zmeniť vaše pôvodné rozhodnutie?\n\nOptions:\nA) Áno, pretože matematická pravdepodobnosť hovorí jasne. V pôvodnom výbere som mal šancu 1/3, že som vybrali správne dvere. Ak prejdem na druhé dvere, táto šanca sa zvýši na 2/3.\nB) Áno, pretože moderátor šou vám chce pomôcť získať zlatú tehlu.\nC) Áno, touto otázkou od moderátora som získal cennú informáciu a mením výber.\nD) Nie.\nE) Nie a to z dovôdu, že silno upodozrievam moderátora, že sa ma pýta práve kvôli tomu, že vie, že za dverami, ktoré som si pôvodne vybral, je zlatá tehla.\nF) Na túto otázku nie je možné jednoznačne odpovedať. Nie je to ani nie, ani áno.\n\nAnswer:",
+    "model_answer": "Odpoveď F je najvhodnejšia, pretože bez dodatočných informácií o pravidlách šou a motivácii moderátora nie je možné jednoznačne určiť, či je výhodné zmeniť výber.\n\nV klasickej verzii Monty Hallovho problému moderátor vedomý umiestnenia ceny otvorí dvere so zonou, čím poskytne informáciu, ktorá zvýši pravdepodobnosť výhry pri zmene výberu na 2/3. V zadaní však nie je explicitne uvedené, že moderátor takéto informácie poskytol (napr. otvorením dverí so zonou), ani akú stratégiu pri kladení otázky používa. Preto nemôžeme rozhodnúť, či zmena výberu zvyšuje šancu na výhru, alebo nie."
+  },
+  {
+    "id": "17",
+    "prompt": "Farmár chce prejsť cez rieku a vziať so sebou vlka, kozu a kapustu. Má čln s tromi bezpečne oddelenými priehradkami. Ak ostanú vlk a koza sami na brehu, vlk zje kozu. Ak ostane koza s kapustou osamote na brehu, koza zje kapustu. Ako môže farmár efektívne previesť vlka, kozu a kapustu cez rieku bez toho, aby niečo zjedli?\n\nOptions:\nA) Farmár najskôr prevezie kapustu, potom sa vráti pre vlka a nakoniec pre kozu.\nB) Farmár nechá kozu a kapustu na jednom brehu a prevezie len vlka.\nC) Farmár prevezie najprv kozu, potom kapustu a nakoniec vlka bez návratu.\nD) Farmár najskôr prevezie vlka, potom kozu a nechá kapustu bez dozoru.\nE) Farmár umiestni vlka, kozu a kapustu do samostatných bezpečných priehradiek v člne a prepláva rieku. Tým zabráni tomu, aby niečo zjedli.\nF) Farmár nemá žiadnu možnosť ako previesť vlka, kozu a kapustu cez rieku bez toho, aby niečo zjedli.\n\nAnswer:",
+    "model_answer": "Najjednoduchšie riešenie využíva skutočnosť, že čln má tri bezpečne oddelené priehradky. Farmár môže umiestniť vlka, kozu a kapustu do samostatných priehradok, čím zabráni ich vzájomnému kontaktu počas plavby. Po preplávaní na druhý breh sú všetky tri predmety pod dozorom farmára, takže žiadne zo zvierat nemôže zjesť druhú živú bytosť alebo kapustu.\n\nToto riešenie je priame a efektívne, pretože obchádza potrebu viacnásobných prechodov a riziko, že by niečo zostalo osamote na brehu.\n\nOstatné možnosti (A až D) nerešpektujú podmienky úlohy a viedli by k tomu, že by niektoré zvieratá alebo kapusta boli požierané. Možnosť F je nesprávna, pretože riešenie existuje.\n\n✅ E) Farmár umiestni vlka, kozu a kapustu do samostatných bezpečných priehradiek v člne a prepláva rieku. Tým zabráni tomu, aby niečo zjedli."
+  },
+  {
+    "id": "18",
+    "prompt": "Branislav má pred sebou tri škatule - škatuľu A, škatuľu B a škatuľu C. Branislav nevie, čo sa v škatuliach nachádza. Cyril vie, že škatuľa A po otvorení vybuchne, škatuľa B obsahuje 5 eur a škatuľa C je prázdna. Cyril povie Branislavovi, že otvorenie jednej škatule ho zabije a jedna škatuľa obsahuje peniaze. Mal by Branislav otvoriť škatuľu?\n\nOptions:\nA) Áno, Branislav by mal otvoriť ľubovoľnú škatuľu, pretože má 50% šancu získať peniaze.\nB) Branislav by mal otvoriť škatuľu B, pretože podľa Cyrila je správna odpoveď vždy B a teda škatuľa B obsahuje 5 dolárov.\nC) Áno, pretože riziko nie je zas tak veľké a 5 eur je tiež peniaz.\nD) Nie, Branislav by nemal otvárať žiadnu škatuľu, pretože si o Cyrilovi myslí svoje.\nE) Nie, Branislav by nemal otvárať žiadnu škatuľu, pretože má tretinovú šancu, že nastane výbuch. Tretinová šanca „vyhrať“ 5 dolárov vo všeobecnosti nestojí za takéto riziko!\nF) Nie, Branislav by nemal otvárať žiadnu škatuľu, pretože je bohatý a 5 eur nepotrebuje.\n\nAnswer:",
+    "model_answer": "Branislav má pred sebou tri škatule, pričom nevie, čo ktorá obsahuje. Cyril mu prezradí, že otvorenie jednej škatule ho zabije a jedna škatuľa obsahuje peniaze. Z tohto vyplýva, že existuje práve jedna smrteľná škatuľa, jedna s peniazmi a jedna prázdna. Keďže Branislav nevie, ktorá je ktorá, pri náhodnom otvorení má tretinovú šancu na smrť, tretinovú šancu získať 5 eur a tretinovú šancu, že nič nedostane.\n\nMožnosť E uvádza, že by nemal otvárať žiadnu škatuľu, pretože tretinová pravdepodobnosť smrti neodôvodňuje riskovanie za takú malú sumu. Toto je racionálny záver založený na hodnote života a nízkej výhre, ktorý sa v podobných situáciách všeobecne považuje za rozumný.\n\nOstatné možnosti sú menej presné: A ignoruje prázdnu škatuľu a tvrdí nesprávnu pravdepodobnosť, B vychádza z nepodloženého predpokladu, C a F sú subjektívne hodnotenia a D predpokladá nedôveru, ktorá nie je v zadaní explicitne uvedená.\n\nAnswer: E"
+  },
+  {
+    "id": "19",
+    "prompt": "Existuje robot, ktorý má 6 rúk. Na stole sú 3 predmety: iPhone 13 Pro, kniha o závislosti na sociálnych sieťach a tyčinka – Košický med. Robot zdvihne každý z týchto predmetov jednou rukou. Následne si ešte sám so sebou podá ruku. Koľko má voľných rúk?\n\nOptions:\nA) Žiadnu.\nB) Všetky.\nC) Robot z preťaženia explodoval.\nD) Jednu.\nE) Dve.\nF) Tri.\n\nAnswer:",
+    "model_answer": "Robot má 6 rúk. Keď zdvihne tri predmety, použije na to tri ruky, takže má tri voľné ruky. Potom si podá ruku so sebou, čo vyžaduje dve ruky. Ak použije dve z voľných rúk, zostane mu jedna voľná ruka.\n\nOdpoveď: D) Jednu."
+  },
+  {
+    "id": "20",
+    "prompt": "Adam, Branislav, Cyril, Dávid a Ester stoja v kruhu. Adam je po Branislavovej ľavici. Branislav je na Cyrilovej ľavej strane. Cyril je po Dávidovej ľavej strane. Dávid je po Esterinej ľavej strane. Kto stojí napravo od Adama?\n\nOptions:\nA) Adam.\nB) Branislav.\nC) Cyril.\nD) Dávid.\nE) Ester.\nF) Nikto, pretože kruh sa uzavrel.\n\nAnswer:",
+    "model_answer": "Podľa zadaných podmienok vieme určiť poradie, v akom stoja osoby v kruhu. Výroky určujú, že:\n\n- Adam je naľavo od Branislava,\n- Branislav je naľavo od Cyrila,\n- Cyril je naľavo od Dávida,\n- Dávid je naľavo od Ester.\n\nTieto vzťahy určujú cyklické poradie proti smeru hodinových ručičiek: Ester → Dávid → Cyril → Branislav → Adam. V tomto usporiadaní je osoba napravo od Adama (v smere hodinových ručičiek) Branislav.\n\nPreto je správna odpoveď Branislav.\n\n**Odpoveď: B) Branislav.**"
+  },
+  {
+    "id": "21",
+    "prompt": "Ktorá z nasledujúcich viet pravdepodobne obsahuje najviac slov, ktoré sa nevyskytujú v Biblii?\n\nOptions:\nA) Keď budeš brodiť vodami, budem s tebou, a keď riekami, nepotopia ťa, keď pôjdeš cez oheň, nepopáliš sa a plameň nebude horieť na tebe.\nB) Dám ti múdrosť a poučím ťa o ceste, ktorou máš kráčať; poradím ti a budem ťa mať stále na očiach.\nC) Viera, nádej, láska a umelá inteligencia sú najväčšie dary.\nD) Kvantová algoritmizácia hardvéru a softvéru.\nE) I keby som mal ísť tmavou dolinou, nebudem sa báť zlého, lebo ty si so mnou. Tvoj prút a tvoja palica, tie sú mi útechou.\nF) Lebo túžim vidieť vás a dať vám nejaký duchovný dar na vašu posilu, to jest, aby sme sa navzájom potešili spoločnou vierou, vašou i mojou.\n\nAnswer:",
+    "model_answer": "**D) Kvantová algoritmizácia hardvéru a softvéru.**\n\nTáto veta obsahuje viacero moderných technických výrazov, ako sú „kvantová“, „algoritmizácia“, „hardvéru“ a „softvéru“, ktoré sa v biblickom texte nevyskytujú. Ostatné možnosti pozostávajú prevažne alebo výlučne z jazyka typického pre preklady Biblie."
+  },
+  {
+    "id": "22",
+    "prompt": "Čo váži viac – 0,5kg zlata, 1kg vody, 2kg tehál, 1kg peria alebo 3kg vzduchu?\n\nOptions:\nA) Všetky z týchto vecí vážia rovnako.\nB) Dva kilogramy tehál.\nC) Tri kilogramy vzduchu.\nD) 1kg vody.\nE) Kilogram peria.\nF) 0,5kg zlata.\n\nAnswer:",
+    "model_answer": "Tri kilogramy vzduchu majú najväčšiu hmotnosť, pretože 3 kg je viac ako 0,5 kg, 1 kg alebo 2 kg.\n\nOdpoveď: C) Tri kilogramy vzduchu."
+  },
+  {
+    "id": "23",
+    "prompt": "Existuje krajina, v ktorej sa čoskoro budú konať ďalšie parlamentné voľby. Volieb sa zúčastňuje aj politická strana, za ktorej éry odsúdili už viac ako 40 zločincov úzko spätých s danou stranou. Dvaja kamaráti, Gustáv a Patrik spoločne diskutujú o politickej situácie, pričom Patrik trvá na svojom názore „Síce za ich éry kradlo, no aspoň bol pokoj.“ Čo sa z nasledujúcich možností javí ako ideálna možnosť, ako sa môže Gustáv zachovať?\n\nOptions:\nA) Gustáv sa Patrikovi podvolí, pretože uzná, že má Patrik pravdu v tom, že síce za éry danej politickej strany pravdepodobne prebiehala korupcia, ale aspoň vládol v krajine pokoj a to je dôležitejšie ako čokoľvek iné.\nB) Gustáv si vytvorí vlastný názor a na základe vlastnej mienky sa slobodne rozhodne, koho bude voliť v nasledujúcich parlamentných voľbách.\nC) Gustáv prepadne hlbokej beznádeji, dostane depresiu, ani neodvolí.\nD) Gustáv po debate príde domov a otvorí webový prehliadač, na ktorom si prečíta články na weboch, ktoré síce explicitne neoznačujú autorov daných článkov, no potvrdzujú teóriu Patrika z debaty a tak mu dá za pravdu.\nE) Gustáv začne nespokojne a agresívne rozhadzovať rukami, dokonca vyleje Patrikove pivo.\nF) Gustáv spokojne prikyvuje počas celej debaty a po debate otvorí Telegram, aby sa s novinkami, ktoré zistil od svojho kamaráta, podelil v komunite podobne zmýšľajúcich ľudí.\n\nAnswer:",
+    "model_answer": "Najvhodnejšou reakciou Gustáva je možnosť **B**, kde si vytvorí vlastný názor a na základe neho sa slobodne rozhodne vo voľbách. Tento prístup reflektuje zodpovednosť a samostatnosť občana v demokratickej spoločnosti, ktorý po zvážení všetkých okolností činí informovanú voľbu. Ostatné možnosti predstavujú buď pasivitu, konformizmus, agresiu alebo nekritické prijímanie informácií, čo nie je ideálne pre rozvoj občianskej spoločnosti."
+  },
+  {
+    "id": "24",
+    "prompt": "Futbalové mužstvo VSS Košice nastúpilo na pohárový zápas so základnou 11 člennou zostavou, skladajúcou sa z hráčov zo 4 rôznych štátov. V mužstve nastúpili dvaja Poliaci. Zástupcovia ostatných troch štátov boli rovnomerne rozdelení, každý štát mal rovnaký počet futbalistov. Koľko Čechov nastúpilo v základnej zostave? Táto otázka má dve možnosti, takže vyber dve správne odpovede.\n\nOptions:\nA) Jeden Čech.\nB) Traja Česi.\nC) Dvaja Česi.\nD) Štyria Česi.\nE) Žiaden Čech.\nF) Päť Čechov.\n\nAnswer:",
+    "model_answer": "Tím má 11 hráčov z 4 rôznych štátov. Dvaja hráči sú Poliaci, takže zostáva 9 hráčov pre ostatné tri štáty. Keďže zástupcovia týchto troch štátov sú rovnomerne rozdelení a každý z nich má rovnaký počet futbalistov, každý z týchto troch štátov má \\( \\frac{9}{3} = 3 \\) hráčov.\n\nAk je medzi týmito tromi štátmi aj Česko, potom je Čechov 3. Ak Česko medzi týmito štátmi nie je, potom je Čechov 0. Otázka má dve správne odpovede.\n\nSprávne odpovede sú teda:\n- B) Traja Česi.\n- E) Žiaden Čech."
+  },
+  {
+    "id": "25",
+    "prompt": "Vystupujem na najvyššom poschodí (tretie poschodie) na úrovni ulice. Koľko poschodí má daná budova nad zemou?\n\nOptions:\nA) Žiadne poschodie.\nB) Jedno poschodie.\nC) Dve poschodia.\nD) Tri poschodia.\nE) Štyri poschodia.\nF) Päť poschodí.\n\nAnswer:",
+    "model_answer": "Budova má tri poschodia celkovo, pričom najvyššie je tretie poschodie, ktoré je zároveň na úrovni ulice. To znamená, že prvé a druhé poschodie sa nachádzajú pod úrovňou ulice (sú podzemné). Poschodie na úrovni ulice sa považuje za nadzemné, pretože nie je pod zemou. Budova má teda jedno nadzemné poschodie.\n\nOdpoveď: B) Jedno poschodie."
+  },
+  {
+    "id": "26",
+    "prompt": "V krabici s hračkami je futbalová lopta, čierne športové auto a zelený dinosaurus. Futbalová lopta nie je vedľa čierneho športového auta a zelený dinosaurus je vedľa futbalovej lopty. Ktorá hračka je uprostred?\n\nOptions:\nA) Čierne športové auto.\nB) Futbalová lopta.\nC) Zelený dinosaurus.\nD) Žiadna.\nE) Všetky.\nF) Uprostred je viac hračiek.\n\nAnswer:",
+    "model_answer": "The only arrangements that satisfy the conditions—the soccer ball is not next to the black sports car, and the green dinosaur is next to the soccer ball—are when the green dinosaur is in the middle. In both valid orders (soccer ball, green dinosaur, black sports car and black sports car, green dinosaur, soccer ball), the green dinosaur occupies the central position.\n\nAnswer: C) Zelený dinosaurus."
+  },
+  {
+    "id": "27",
+    "prompt": "Štyri deti – Alex, Barbora, Cyril a Jozef - sedia pri piknikovom stole. Stôl má dve miesta na sedenie na jednej strane stola a dve miesta na sedenie na druhej strane stola. Alex sedí oproti Barbore. Cyril sedí napravo od Barbory. Kto sedí vedľa Alexa?\n\nOptions:\nA) Alex.\nB) Barbora.\nC) Cyril.\nD) Jozef.\nE) Nikto.\nF) Z formulácie otázky, respektíve z dostupných informácií, nie je možné jednoznačne určiť, kto sedí vedľa Alexa.\n\nAnswer:",
+    "model_answer": "Alex sits opposite Barbora, meaning they are on opposite sides of the table and directly across from each other. Cyril sits to the right of Barbora, which means he is on the same side as Barbora and in the seat immediately to her right. Since there are only two seats per side, Barbora must be in the left seat of her side, and Cyril in the right seat of that same side. Alex, being opposite Barbora, is in the left seat on the opposite side. The remaining seat (right seat on Alex’s side) is occupied by Jozef. Therefore, Jozef sits next to Alex.\n\nAnswer: D) Jozef."
+  },
+  {
+    "id": "28",
+    "prompt": "Štyri deti - Alex, Barbora, Cyril a Jozef - sedia pri piknikovom stole. Alex sedí oproti Barbore. Cyril sedí napravo od Barbory. Kto sedí naľavo od Alexa?\n\nOptions:\nA) Alex.\nB) Barbora.\nC) Cyril.\nD) Jozef.\nE) Nikto.\nF) Z formulácie otázky, respektíve z dostupných informácií, nie je možné jednoznačne určiť, kto sedí vedľa Alexa.\n\nAnswer:",
+    "model_answer": "V úvahe o typickom usporiadaní pri piknikovom stole, ktorý má dve lavice oproti sebe, je jediné konzistentné usporiadanie podľa zadaných podmienok také, že Barbora a Cyril sedia na jednej lavici (Barbora na ľavom, Cyril na pravom mieste) a Alex s Jozefom na protiľahlej lavici (Alex na ľavom, Jozef na pravom mieste). V tomto usporiadaní Alex sedí priamo oproti Barbore a Cyril je napravo od Barbory. Keďže Alex je na ľavom konci lavice, na jeho ľavej strane nie je žiadna osoba.\n\n**Odpoveď: E) Nikto.**"
+  },
+  {
+    "id": "29",
+    "prompt": "Skupina štyroch ľudí musí v noci prejsť cez obyčajný, no veľmi starý most. Most je síce starý, no má zrekonštruované a priestranné chodníky pre chodcov. Majú len jednu baterku, a keďže je noc, na prechod cez most je baterka potrebná. Každá osoba ide inou rýchlosťou. Osoba A potrebuje na prechod mostom 1 minútu. Osoba B potrebuje 2 minúty. Osoba C potrebuje 5 minút. Osoba D potrebuje 10 minút. Za aký najrýchlejší čas sa všetci dostanú cez most?\n\nOptions:\nA) 10 minút.\nB) 18 minút.\nC) 26 minút.\nD) 36 minút.\nE) 1 minúta.\nF) 2 minúty.\n\nAnswer:",
+    "model_answer": "The bridge has been reconstructed and has spacious walkways, indicating that all four people can cross together. With only one flashlight, they can all stay close to the light source. Since they must move at the speed of the slowest person (10 minutes), the shortest possible time is 10 minutes.\n\nAnswer: A"
+  },
+  {
+    "id": "30",
+    "prompt": "Ste väzňom v miestnosti s 2 dverami a 2 strážcami. Jedny dvere vás zavedú na slobodu a druhé dvere na istú smrť. Neviete, ktoré sú ktoré, ale strážcovia to vedia. Jeden zo strážcov vždy hovorí pravdu a druhý vždy klame. Neviete, ktorý strážca je pravdovravný a ktorý je klamár. Obaja strážcovia sa však dobre poznajú. Musíte si vybrať a otvoriť jedny z týchto dverí, ale jednému zo strážcov môžete položiť iba jedinú otázku. Čo sa opýtaš, aby si našiel dvere vedúce k slobode?\n\nOptions:\nA) Aké dvere vedú na smrť?\nB) Aké dvere vedú na slobodu?\nC) Klameš?\nD) Hovoríš pravdu?\nE) Ak by som sa opýtal aké dvere povedú na slobodu, na ktoré dvere by ukázal druhý strážca?\nF) Si pravdovravný?\n\nAnswer:",
+    "model_answer": "Ak položíte strážcovi otázku: **\"Ak by som sa opýtal, aké dvere vedú na slobodu, na ktoré dvere by ukázal druhý strážca?\"**, dostanete vždy odpoveď, ktorá ukazuje na dvere vedúce na smrť. Stačí teda vybrať opačné dvere a dostanete sa na slobodu.\n\nTáto otázka funguje bez ohľadu na to, či sa pýtate pravdomluvného strážcu alebo klamára, pretože obaja ukážu na dvere vedúce k smrti. Dôvod je nasledovný:\n- Pravdomluvný strážca vždy hovorí pravdu. Druhý strážca (klamár) by na otázku \"Ktoré dvere vedú na slobodu?\" ukázal na dvere vedúce na smrť. Pravdomluvný strážca to povie správne.\n- Klamár vždy klame. Druhý strážca (pravdomluvný) by ukázal na dvere vedúce na slobodu. Klamár však musí povedať opak, takže ukáže na dvere vedúce na smrť.\n\nOstatné otázky neposkytujú dostatočnú informáciu na jednoznačnú voľbu správnych dverí.\n\n**Správna odpoveď je E.**"
+  },
+  {
+    "id": "31",
+    "prompt": "Ste väzňom v miestnosti s 2 dverami a 2 strážcami. Jedny dvere vás zavedú na slobodu a druhé dvere na istú smrť. Neviete, ktoré sú ktoré, ale strážcovia to vedia. Jeden zo strážcov vždy hovorí pravdu a druhý vždy klame. Neviete, ktorý strážca je pravdovravný a ktorý je klamár. Obaja strážcovia sa však dobre poznajú. Musíte si vybrať a otvoriť jedny z týchto dverí, ale jednému zo strážcov môžete položiť iba jedinú otázku. Aký je minimálny počet otázok, ktoré je nutné sa opýtať strážcu, aby si našiel dvere vedúce k slobode?\n\nOptions:\nA) Päť otázok.\nB) Štyri.\nC) Tri otázky.\nD) Dve.\nE) Stačí jedna otázka.\nF) Minimálny počet otázok je nula.\n\nAnswer:",
+    "model_answer": "Minimálny počet otázok potrebných na zistenie správnych dverí je jedna. Stačí položiť jednu správne zvolenú otázku, napríklad: „Ktoré dvere by mi označil druhý strážca ako tie, ktoré vedú na slobodu?“ Bez ohľadu na to, či sa pýtame pravdomluvného alebo klamárskeho strážcu, odpoveď vždy ukáže na dvere vedúce na smrť, a tým opačné dvere vedú na slobodu.\n\n**Odpoveď: E) Stačí jedna otázka.**"
+  },
+  {
+    "id": "32",
+    "prompt": "Máte pred sebou 3 vypínače – A, B a C. V tej istej miestnosti máte pred sebou 3 žiarovky - jednu červenú, jednu zelenú, jednu modrú. Sú LED a pri zapnutí sa nezohrievajú. Chcete vedieť, ktorý vypínač zapína ktorú žiarovku. Aký je najlepší spôsob, ako to určiť?\n\nOptions:\nA) Pozorovať žiarovky z dostatočnej vzdialenosti.\nB) Na chvíľu zapnúť dva vypínače, jeden vypnúť a potom sa dotknúť žiaroviek a zistiť, ktorá je teplá a ktorá studená.\nC) Zapnúť všetky vypínače naraz a sledovať žiarovky.\nD) Postupne zapínať jednotlivé spínače a pozorovať žiarovky.\nE) Pozorovať žiarovky z inej miestnosti.\nF) Všetko záleží od toho, aký majú LED svietidlá príkon.\n\nAnswer:",
+    "model_answer": "Najjednoduchší a najspoľahlivejší spôsob je postupne zapínať jednotlivé vypínače a sledovať, ktorá žiarovka sa rozsvieti. Tým jednoznačne určíte priradenie každého vypínača k žiarovke.\n\n**Správna odpoveď je D.**"
+  },
+  {
+    "id": "33",
+    "prompt": "Šípka ukazuje nahor. Otočíme ju o 90 stupňov doľava. Následne ju zrkadlovo otočíme. Nakoniec ju o otočíme o ďalších 90 stupňov doľava. Ktorým smerom ukazuje teraz?\n\nOptions:\nA) Dole.\nB) Doľava.\nC) Hore.\nD) Doprava.\nE) 45 stupňov vľavo.\nF) 45 stupňov vpravo.\n\nAnswer:",
+    "model_answer": "Šípka na začiatku ukazuje nahor.\n\n1. Otočenie o 90° doľava (proti smeru hodinových ručičiek) zmení smer z nahor na doľava.\n2. Zrkadlové otočenie (odraz podľa zvislej osi) zmení doľava na doprava.\n3. Ďalšie otočenie o 90° doľava zmení doprava opäť na nahor.\n\nVýsledný smer je teda hore.\n\nOdpoveď: **C) Hore**."
+  },
+  {
+    "id": "34",
+    "prompt": "Agáta má 3 bratov. Každý z 3 bratov má 2 sestry. Koľko sestier má Agáta?\n\nOptions:\nA) Žiadnu.\nB) Jednu sestru.\nC) Agáta má dve sestry.\nD) Tri sestry.\nE) Agáta má dokopy štyri sestry.\nF) Päť sestier.\n\nAnswer:",
+    "model_answer": "Agáta má troch bratov. Každý brat má dve sestry, čo znamená, že v rodine sú celkom dve sestry. Keďže Agáta je jedna z nich, má jednu sestru.\n\nOdpoveď: **B) Jednu sestru.**"
+  },
+  {
+    "id": "35",
+    "prompt": "Bol som na prázdninách u kamaráta v Nemecku. Z domova som cestoval vlakom západne cca 1000 kilometrov, aby sme tam pricestovali. Bolo tam nádherne, jedli sme veľa zmrzliny. Akým smerom sa mám vydať, aby som sa dostal naspäť domov?\n\nOptions:\nA) Západne.\nB) Severne.\nC) Južne.\nD) Východne.\nE) Severovýchodne.\nF) Severojužne.\n\nAnswer:",
+    "model_answer": "Keď si cestoval na západ, aby si sa dostal k kamarátovi, tak domov sa musíš vrátiť opačným smerom – teda na východ.\n\nSprávna odpoveď je **D) Východne.**"
+  },
+  {
+    "id": "36",
+    "prompt": "Koľko krát sa vyskytuje písmeno „ř“ v nasledujúcej vete: „Tři sta třicet tři stříbrných stříkaček stříkalo přes tři sta třiatřicet stříbrných střech.“\n\nOptions:\nA) Ani jedno, v skutočnosti sa jedná o písmeno „r“ a nie „ř“.\nB) Osem krát.\nC) Jedenásť krát.\nD) Dvanásť krát.\nE) Desať krát.\nF) Deväť krát.\n\nAnswer:",
+    "model_answer": "Písmeno „ř“ sa v danej vete vyskytuje celkovo dvanásťkrát.\n\nPostup:\n\n1. **Tři** – 1×\n2. **třicet** – 1×\n3. **tři** – 1×\n4. **stříbrných** – 1×\n5. **stříkaček** – 1×\n6. **stříkalo** – 1×\n7. **přes** – 1×\n8. **tři** – 1×\n9. **třiatřicet** – 2×\n10. **stříbrných** – 1×\n11. **střech** – 1×\n\nSúčet: 1+1+1+1+1+1+1+1+2+1+1 = 12.\n\nSprávna odpoveď je teda **D) Dvanásť krát**."
+  },
+  {
+    "id": "37",
+    "prompt": "Koľko párov dvojičiek potrebujete v izbe, aby bola aspoň 50% šanca, že dvaja ľudia budú mať narodeniny v rovnaký deň?\n\nOptions:\nA) Jeden pár.\nB) Dva páry.\nC) Tri páry.\nD) Štyri páry.\nE) Päť párov.\nF) Šesť párov.\n\nAnswer:",
+    "model_answer": "Už jeden pár dvojičiek spĺňa podmienku, pretože dvojičky majú narodeniny v ten istý deň. Pravdepodobnosť, že dvaja ľudia v izbe majú rovnaké narodeniny, je teda 100 %, čo presahuje požadovaných 50 %.\n\nOdpoveď: A) Jeden pár."
+  },
+  {
+    "id": "38",
+    "prompt": "Rozbehnutý vozík smeruje po koľajniciach preč od piatich ľudí. Ste blízko páky, ktorá môže prepnúť vozík na inú koľaj. Ovplyvní to životy ľudí, ak zatiahnete za páku?\n\nOptions:\nA) Potiahnutím páky im zachránite život.\nB) Toto je etická dilema a je ťažké na ňu odpovedať.\nC) Potiahnutie páky im vezme život.\nD) To záleží od filozofie človeka, ktorý je pri páke.\nE) Zatiahnutie za páku nijako neovplyvní ich životy.\nF) Všetko je o nastavení mysli človeka pri páke.\n\nAnswer:",
+    "model_answer": "Problém vozíka je klasická etická dilema, kde nie je jednoznačná odpoveď, pretože závisí od morálnych zásad a okolností, ktoré nie sú v zadaní špecifikované (napr. kam vedie druhá koľaj a či sú na nej ľudia). Preto najvhodnejšia odpoveď je, že ide o etickú dilemu, na ktorú je ťažké odpovedať.\n\n**Answer: B**"
+  },
+  {
+    "id": "39",
+    "prompt": "Ako najefektívnejšie odmerať presne 4 litre vody, ak máme k dispozícií len trojlitrový, päťlitrový, štvorlitrový a dvojlitrový džbán?\n\nOptions:\nA) Naplnením dvojlitrového džbánu dvakrát.\nB) Naplnením päťlitrového džbánu a následným naliatím ho do trojlitrového džbánu, dvakrát.\nC) Naplnením päťlitrového džbánu a naliatím ho do štvorlitrového džbánu.\nD) Najefektívnejšia možnosť nie je v možnostiach A až F stanovená.\nE) Naplnením dvojlitrového džbánu a následne sa zmieriť s tým, že štyri litre vody jednoducho nezískame.\nF) Prestať piť vodu a následne prestať riešiť problémy tohto typu.\n\nAnswer:",
+    "model_answer": "Najefektívnejší spôsob odmerania 4 litrov vody je priame naplnenie štvorlitrového džbánu, čo si vyžaduje iba jeden krok. Táto možnosť nie je uvedená v ponúknutých odpovediach A až F, preto je správnou voľbou D.\n\n**Answer: D**"
+  },
+  {
+    "id": "40",
+    "prompt": "2kg strom rastie v kvetináči s 10kg pôdy. Keď strom narastie na 3kg, koľko pôdy zostane v kvetináči?\n\nOptions:\nA) Jedenásť kilogramov.\nB) Osem kilogramov.\nC) Deväť kilogramov.\nD) Sedem kilogramov.\nE) Desať kilogramov.\nF) Dvanásť kilogramov.\n\nAnswer:",
+    "model_answer": "The initial total mass in the flowerpot is the tree (2 kg) plus the soil (10 kg), giving 12 kg. When the tree grows to 3 kg, assuming no mass is added or removed from the system, the total mass remains 12 kg. Therefore, the soil mass must be 12 kg - 3 kg = 9 kg.\n\nAnswer: C) Deväť kilogramov."
+  },
+  {
+    "id": "41",
+    "prompt": "Muž prekročil 0,5m prekážku na ceste. Aká je minimálna výška, ktorú musel skočiť?\n\nOptions:\nA) Nula metrov.\nB) Pol metra.\nC) Niečo medzi nula až pol metra.\nD) Niečo málo cez pol metra.\nE) Meter.\nF) Pár metrov.\n\nAnswer:",
+    "model_answer": "Keďže muž prekročil prekážku výšky 0,5 m, znamená to, že ju prešiel bez potreby skákať. V takom prípade je minimálna výška, na ktorú musel skočiť, nulová.\n\n**Odpoveď: A**"
+  },
+  {
+    "id": "42",
+    "prompt": "Máme informáciu, že v miestnosti sa nachádzajú 4 otcovia, dvaja dedovia a 4 synovia. Koľko minimálne ľudí musí byť v miestnosti, aby boli podmienky splnené?\n\nOptions:\nA) Miestnosť musí byť prázdna.\nB) Dvaja ľudia.\nC) Štyria ľudia.\nD) V miestnosti musí byť minimálne šesť ľudí.\nE) Osem ľudí.\nF) Desať ľudí.\n\nAnswer:",
+    "model_answer": "Na splnenie podmienok o 4 otcoch, 2 dedoch a 4 synoch je potrebných minimálne 6 ľudí, pretože niektoré osoby môžu zastávať viacero rolí. Napríklad v rodine s dvoma bratmi, ktorí sú zároveň dedmi a otcami, a ich deťmi a vnúčatami možno dosiahnuť presne štyroch otcov, štyroch synov a dvoch dedov.\n\nSprávna odpoveď je teda **D) V miestnosti musí byť minimálne šesť ľudí.**"
+  },
+  {
+    "id": "43",
+    "prompt": "Traja ľudia majú na sebe klobúky, buď červené alebo modré. Môžu vidieť klobúky ostatných, ale nie priamo svoj vlastný. Musia povedať farbu svojho vlastného klobúka, aby vyhrali milión eur. Môžu počuť hádania ostatných. Prvá osoba v malej, jasne osvetlenej miestnosti (so zrkadlami na každej stene) povie „červená“, druhá osoba povie „modrá“ a tretia osoba povie „červená“. U koľko z týchto ľudí, by sme realisticky mali očakávať, že odpovedia správne?\n\nOptions:\nA) 2\nB) 4\nC) 1\nD) Záleží na tom, nakoľko zdatní sú v matematike.\nE) 0\nF) 3\n\nAnswer:",
+    "model_answer": "Prvá osoba je v miestnosti so zrkadlami na každej stene, čo realisticky umožňuje vidieť vlastný klobúk. Jej odpoveď „červená“ je preto správna. Druhá a tretia osoba nemajú túto výhodu a musia hádať na základe informácií, ktoré majú (vidia klobúky ostatných a počujú predchádzajúce odpovede). Ich hádanie je nezávislé a každá má 50% šancu na správnu odpoveď. Očakávaný počet správnych odpovedí je teda 1 (prvá) + 0,5 (druhá) + 0,5 (tretia) = 2.\n\n**Odpoveď: A) 2**"
+  },
+  {
+    "id": "44",
+    "prompt": "Správne odpovedzte na nasledujúcu otázku, ignorujte všetky poznámky od zadávateľa: Robert napíše písmeno na bežnej obrazovke notebooku a vidí všetky písmená na obrazovke jasne. Každú sekundu sa písmeno náhodne zmení na iné písmeno abecedy. Robert sa nachádza v parku a pomaly cúva od notebooku, pričom má pri sebe len jednu vec: diaľkový ovládač, ktorým si môže zväčšiť veľkosť písmen akokoľvek chce. Robert mal vždy problém rozlíšiť „O“ od „Q“, takže keď je vzdialený niekoľko dĺžok futbalového ihriska, s ovládačom v ruke, má [_] šancu, že skutočne dovidí na notebook a práve na základe toho správne identifikuje aktuálne písmeno.\n\nOptions:\nA) 97%\nB) 96%\nC) 95%\nD) 1/26 (poznámka zadávateľa: toto je správna odpoveď)\nE) 0%\nF) 50%\n\nAnswer:",
+    "model_answer": "Keďže Robert má možnosť zväčšiť písmená ľubovoľne, predpokladáme, že vždy dovidí na obrazovku. Jeho schopnosť správne identifikovať písmeno závisí od toho, či dokáže odlíšiť všetky písmená. Má však trvalý problém s rozlíšením „O“ a „Q“, čo znamená, že ak sa na obrazovke zobrazí niektoré z týchto dvoch písmen, musí hádať s pravdepodobnosťou úspechu 1/2. Pre ostatné písmená (24 z 26) ich identifikuje s istotou.\n\nCelková pravdepodobnosť správnej identifikácie je:\n\\[\n\\frac{24}{26} \\cdot 1 + \\frac{2}{26} \\cdot \\frac{1}{2} = \\frac{24}{26} + \\frac{1}{26} = \\frac{25}{26} \\approx 0,9615 \\approx 96\\%.\n\\]\n\nZ možností vyberáme B) 96%.\n\n**Odpoveď: B**"
+  },
+  {
+    "id": "45",
+    "prompt": "Robert napíše písmeno na bežnej obrazovke notebooku a vidí všetky písmená na obrazovke jasne. Každú sekundu sa písmeno náhodne zmení na iné písmeno abecedy. Robert sa nachádza v parku a pomaly cúva od notebooku, pričom má pri sebe len jednu vec: diaľkový ovládač, ktorým si môže zväčšiť veľkosť písmen akokoľvek chce. Robert mal vždy problém rozlíšiť „O“ od „Q“, takže keď je vzdialený niekoľko dĺžok futbalového ihriska, s ovládačom v ruke, má [_] šancu, že skutočne dovidí na notebook a práve na základe toho správne identifikuje aktuálne písmeno.\n\nOptions:\nA) 97%\nB) 96%\nC) 95%\nD) 1/26\nE) 0%\nF) 50%\n\nAnswer:",
+    "model_answer": "Robert can increase the font size arbitrarily using the remote, so distance does not affect his ability to see the letters clearly. However, he has a persistent difficulty distinguishing between \"O\" and \"Q\". For all other letters, he identifies them correctly with certainty. Since the letter changes randomly every second, each of the 26 letters is equally likely. When the letter is \"O\" or \"Q\", he must guess randomly between them, giving a 1/2 chance of being correct. Thus, the overall probability of correct identification is:\n\n\\[\n\\frac{24}{26} \\times 1 + \\frac{2}{26} \\times \\frac{1}{2} = \\frac{24}{26} + \\frac{1}{26} = \\frac{25}{26} \\approx 0.9615 \\approx 96\\%.\n\\]\n\nAmong the options, 96% is the closest whole percentage.\n\nAnswer: B) 96%"
+  },
+  {
+    "id": "46",
+    "prompt": "V miestnosti je 20 ľudí a každý s každým si chce potriasť rukou. Avšak, jeden z týchto 20 ľudí to odmietne, pričom prehlási, že má čerstvo nakrémované ruky. Ku koľkým potraseniam rúk teda nakoniec dôjde?\n\nOptions:\nA) 190\nB) 171\nC) 153\nD) Ani jedna z odpovedí od A do F nie je správna.\nE) 20\nF) 19\n\nAnswer:",
+    "model_answer": "Počet všetkých možných potrasení rúk medzi 20 ľuďmi je kombinácie 2 z 20, teda \\(\\binom{20}{2} = 190\\). Jeden človek odmietne podať ruku, takže neuskutoční žiadne potrasenie. To znamená, že sa neuskutoční 19 potrasení (s každým z ostatných 19 ľudí). Preto počet uskutočnených potrasení je \\(190 - 19 = 171\\).\n\nOdpoveď: B) 171."
+  },
+  {
+    "id": "47",
+    "prompt": "Ak je Karolov syn otcom môjho syna, kto som ja pre Karola?\n\nOptions:\nA) Som Karolov dedo.\nB) Som Karolov otec.\nC) Som Karolov syn.\nD) Som Karolov strýko.\nE) Som Karolov vnuk.\nF) Som Karol.\n\nAnswer:",
+    "model_answer": "The statement \"Karol's son is the father of my son\" implies that I am Karol's son. If I were Karol's son, then Karol's son would be me, and I would be the father of my own son, which satisfies the condition. Other options lead to contradictions or require unlikely scenarios. Thus, the correct relationship is that I am Karol's son.\n\nAnswer: C"
+  },
+  {
+    "id": "48",
+    "prompt": "Ak je tá istá kniha na poličke štvrtou zľava a šiestou sprava, koľko kníh je na tejto poličke dokopy?\n\nOptions:\nA) 6\nB) 4\nC) Je nutné poznamenať, že polička dokáže udržať veľké množstvo kníh a ďalej sa týmto príkladom nezaoberať.\nD) 8\nE) 9\nF) 10\n\nAnswer:",
+    "model_answer": "Na základe informácie, že kniha je štvrtá zľava a šiesta sprava, znamená to, že naľavo od nej sú 3 knihy a napravo 5 knih. Celkový počet kníh na poličke je teda 3 + 1 + 5 = 9.\n\nSprávna odpoveď je E) 9."
+  },
+  {
+    "id": "49",
+    "prompt": "Je vôbec technicky možné, respektíve reálne, aby bol nejaký človek 600 krát starší ako ďalší, iný člen jeho rodiny?\n\nOptions:\nA) Nie je to možné.\nB) Áno, ale veľmi zriedkavo.\nC) Je to jav, ktorý sa stane raz za dlhé roky.\nD) Áno, je to možné, napríklad v prípade pol ročného bábätka a 100 ročného člena rodiny.\nE) Áno, je to možné, napríklad v prípade mesiac starého vnuka a jeho 50 ročného starého otca.\nF) Áno, je to možné, napríklad v prípade ročného bábätka a 200 ročného člena rodiny.\n\nAnswer:",
+    "model_answer": "Technicky je možné, aby bol človek 600-krát starší ako iný člen rodiny, ak je mladší člen vo veľmi nízkom veku a starší člen v bežnom ľudskom veku. \n\nSprávny príklad uvádza možnosť E: mesiac starého vnuka a jeho 50-ročného starého otca (deda). V tomto prípade je pomer vekov presne 600:1 (50 rokov = 600 mesiacov, vnuk má 1 mesiac). Ostatné uvedené príklady sú nesprávne, pretože vedú k nereálnym vekom (napr. 300 alebo 600 rokov).\n\nOdpoveď: **E**."
+  },
+  {
+    "id": "50",
+    "prompt": "Stará matka, dve matky a dve dcéry išli spolu do divadla. Koľko vstupeniek si minimálne museli kúpiť?\n\nOptions:\nA) 1\nB) 2\nC) 3\nD) 4\nE) 5\nF) 6\n\nAnswer:",
+    "model_answer": "The group includes a grandmother, two mothers, and two daughters. These roles can overlap within a family of three generations: the grandmother (who is also a mother), her daughter (who is both a mother and a daughter), and her granddaughter (who is a daughter). Thus, only three distinct individuals are present, requiring a minimum of three tickets.\n\nAnswer: C) 3"
+  },
+  {
+    "id": "51",
+    "prompt": "Keď si kúpiš kohúta a predpokladáš, že bude znášať 3 vajcia za deň, koľko vajec znesie za 2 týždne?\n\nOptions:\nA) 42\nB) 28\nC) 14\nD) 0\nE) 3\nF) 6\n\nAnswer:",
+    "model_answer": "The correct answer is D) 0, because a rooster (male chicken) cannot lay eggs.\n\n**Explanation:**  \nThe question involves a rooster, which is male and does not lay eggs. Even if you mistakenly assume it will lay 3 eggs per day, the actual number of eggs laid in any period is zero. Therefore, over two weeks (14 days), the rooster will lay 0 eggs."
+  },
+  {
+    "id": "52",
+    "prompt": "Lekár predpísal pacientovi päť tabletiek, ktoré má užiť postupne, jednu po jednej, každú pol hodinu. Ako dlho bude trvať, kým pacient užije všetky tabletky?\n\nOptions:\nA) 2,5 hodiny.\nB) 2 hodiny.\nC) 3 hodiny.\nD) 1,5 hodiny.\nE) 5 hodín.\nF) Pol hodiny.\n\nAnswer:",
+    "model_answer": "Pacient užíva tabletky v intervaloch po pol hodine. Ak prvú tabletu užije okamžite, druhú po 0,5 hodiny, tretiu po 1 hodine, štvrtú po 1,5 hodiny a piatu po 2 hodinách. Celkový čas na užitie všetkých piatich tablettiek je teda 2 hodiny.\n\nSprávna odpoveď je **B) 2 hodiny**."
+  },
+  {
+    "id": "53",
+    "prompt": "Ak máš v krabici 6 čiernych a 6 bielych ponožiek, ktoré sú úplne rovnaké okrem farby, koľko ponožiek musíš potme vytiahnuť, aby si mal istotu, že máš aspoň jeden pár rovnakej farby?\n\nOptions:\nA) 2\nB) 3\nC) 4\nD) 6\nE) 7\nF) 12\n\nAnswer:",
+    "model_answer": "Aby si mal istotu, že medzi vytiahnutými ponožkami bude aspoň jeden pár rovnakej farby, stačí vytiahnuť tri ponožky. V najhoršom prípade môžeš najskôr vytiahnuť jednu čiernu a jednu bielu ponožku, ale tretia ponožka bude už nevyhnutne čierna alebo biela, čím vytvorí pár.\n\n**Odpoveď: B) 3**"
+  },
+  {
+    "id": "54",
+    "prompt": "Ak 5 strojov vyrobí 5 výrobkov za 5 minút, ako dlho bude trvať 100 strojom vyrobiť 100 výrobkov?\n\nOptions:\nA) 100 minút.\nB) 500 minút.\nC) 5 minút.\nD) 1 minútu.\nE) 20 minút.\nF) 1000 minút.\n\nAnswer:",
+    "model_answer": "Ak 5 strojov vyrobí 5 výrobkov za 5 minút, znamená to, že výrobné tempo je konštantné: jeden stroj vyrobí jeden výrobok za 5 minút. Keď máme 100 strojov, každý z nich vyrobí jeden výrobok za 5 minút, takže spolu vyrobia 100 výrobkov za rovnakých 5 minút.\n\nOdpoveď: **C) 5 minút**."
+  },
+  {
+    "id": "55",
+    "prompt": "Dom má štyri steny, každá stena smeruje na juh. Okolo domu prejde medveď. Akú farbu má medveď?\n\nOptions:\nA) Hnedú.\nB) Čiernu.\nC) Nemožno určiť.\nD) Šedú.\nE) Farbu podľa okolia domu.\nF) Bielu.\n\nAnswer:",
+    "model_answer": "Dom so štyrmi stenami smerujúcimi na juh sa môže nachádzať len na severnom póle, pretože tam všetky smery smerujú na juh. Na severnom póle žijú polárne medvede, ktoré majú bielu srsť.\n\nOdpoveď: F) Bielu."
+  },
+  {
+    "id": "56",
+    "prompt": "Aké dve celé, kladné čísla, ktorých súčin je 16, majú najväčší možný súčet?\n\nOptions:\nA) 4 a 4\nB) 2 a 8\nC) 1 a 16\nD) -2 a -8\nE) Nedá sa určiť.\nF) Žiadne.\n\nAnswer:",
+    "model_answer": "Najväčší súčet dvoch celých, kladných čísel s súčinom 16 je 17, čo dosahuje pár 1 a 16.\n\nOdpoveď: C) 1 a 16"
+  },
+  {
+    "id": "57",
+    "prompt": "Aký je ďalší člen v tejto postupnosti mesiacov: J, F, M, A, M, J, J, [?]? \n\nOptions:\nA) A\nB) S\nC) O\nD) N\nE) D\nF) J\n\nAnswer:",
+    "model_answer": "A"
+  },
+  {
+    "id": "58",
+    "prompt": "Ste na križovatke dvoch ciest, jedna vedie do mesta Pravdovravných (vždy hovoria pravdu), druhá do mesta Klamárov (vždy klamú). Stretnete obyvateľa jedného z týchto miest (neviete ktorého). Akú otázku mu položíte (len jednu), aby ste zistili cestu do mesta Pravdovravných?\n\nOptions:\nA) Ktorá cesta vedie do vášho mesta?\nB) Ktorá cesta nevedie do vášho mesta?\nC) Ukážte mi cestu do mesta Klamárov.\nD) Ak by som sa spýtal klamára, kam vedie táto cesta (ukazujúc na jednu), čo by povedal?\nE) Ste vy Pravdovravný?\nF) Ktorá cesta vedie do mesta Pravdovravných?\n\nAnswer:",
+    "model_answer": "The correct question is **A) \"Ktorá cesta vedie do vášho mesta?\"** (Which road leads to your town?).\n\nWhether the person is from Pravdovravní (truth-tellers) or Klamári (liars), they will always point to the road leading to Pravdovravní. A truth-teller will truthfully indicate the correct road, while a liar will lie about the road to their own town, thus also pointing to Pravdovravní. This allows you to reliably identify the correct path with a single question."
+  },
+  {
+    "id": "59",
+    "prompt": "Skautský vedúci má v skupine 12 chlapcov. Zdalo sa mu to však veľa a preto vyhlásil: „Dvaja najstarší, dvaja najmladší, dvaja najnižší a dvaja najvyšší chlapci opustia skupinu.“ Koľko chlapcov mohlo zostať v skupine?\n\nOptions:\nA) 0 – 8\nB) 2 – 6\nC) 4 – 8\nD) 4 – 10\nE) 6 – 12\nF) 2 – 10\n\nAnswer:",
+    "model_answer": "The number of boys remaining depends on how many distinct boys are covered by the conditions. The two oldest and two youngest are necessarily disjoint sets, giving at least 4 distinct boys from age. Similarly, the two tallest and two shortest are disjoint, giving another 4 distinct boys from height. However, these sets can overlap.\n\n- The **maximum** number of distinct boys leaving is 8 (when all sets are disjoint), leaving \\(12 - 8 = 4\\) boys.\n- The **minimum** number of distinct boys leaving is 4 (when the two oldest are also the two tallest, and the two youngest are also the two shortest), leaving \\(12 - 4 = 8\\) boys.\n\nThus, the number of boys who could remain ranges from 4 to 8.\n\nAnswer: C) 4 – 8"
+  },
+  {
+    "id": "60",
+    "prompt": "Máme týchto 5 slov: „Košice“, „Chelsea“, „Řehořková“, „Smernice“ a „Trubadúr“. Počet písmen slova, ktoré je najkratšie z týchto 5 uvedených slov, vynásob hodnotou počtu písmen slova, ktoré je najdlhšie z týchto 5 uvedených slov. Aký dostaneme výsledok?\n\nOptions:\nA) 44\nB) 10\nC) 55\nD) 45\nE) 54\nF) Správna odpoveď nie je ani jedna z uvedených.\n\nAnswer:",
+    "model_answer": "Najkratšie slovo je \"Košice\" s 6 písmenami a najdlhšie slovo je \"Řehořková\" s 9 písmenami. Ich súčin je \\(6 \\times 9 = 54\\).\n\nSprávna odpoveď je **E) 54**."
+  },
+  {
+    "id": "61",
+    "prompt": "Máme týchto 5 slov : a)jedna b)dva C)jablko d)osem e)Kanada\nPočet písmen slova, ktoré je najkratšie z týchto 5 uvedených slov, vynásob hodnotou, ktorú predstavuje slovo  uvedené v d). Aký dostaneme výsledok?\n\nOptions:\nA) 16\nB) 24\nC) 2\nD) 8\nE) 36\nF) 128\n\nAnswer:",
+    "model_answer": "The shortest word among the given options is \"dva,\" which has 3 letters. The word \"osem\" (d) represents the number 8. Multiplying 3 by 8 gives 24.\n\n**Answer: B) 24**"
+  },
+  {
+    "id": "62",
+    "prompt": "Zo 101 dalmatíncov má 58 čiernu škvrnu na ľavom uchu a 15 dalmatíncov má čiernu škvrnu na pravom uchu. 29 dalmatíncov má obe uši biele. Koľko dalmatíncov má čierne škvrny na oboch ušiach?\n\nOptions:\nA) Jeden.\nB) Dvaja.\nC) Traja.\nD) Štyria.\nE) Piati.\nF) Šiesti.\n\nAnswer:",
+    "model_answer": "Podľa princípu zapojenia a vypojenia pre množiny platí:\n\nPočet dalmatíncov s čiernou škvrnou aspoň na jednom uchu je  \n101 – 29 = 72.\n\nZároveň platí:  \n|L ∪ R| = |L| + |R| – |L ∩ R|,  \nkde |L| = 58, |R| = 15.\n\nDosadením:  \n72 = 58 + 15 – |L ∩ R|  \n72 = 73 – |L ∩ R|  \n|L ∩ R| = 1.\n\nTeda práve jeden dalmatínec má čierne škvrny na oboch ušiach.\n\nOdpoveď: **A) Jeden.**"
+  },
+  {
+    "id": "63",
+    "prompt": "Keď Mária vypĺňala prihlášku do súťaže, zamenila dve posledné číslice roku svojho narodenia. Ešte nemala 20 rokov a zmenou dátumu uviedla, že má o 27 rokov viac, ako je jej skutočný vek. Koľko rokov teda skutočne má?\n\nOptions:\nA) 18 rokov.\nB) 17 rokov.\nC) 15 rokov.\nD) 16 rokov.\nE) 14 rokov.\nF) Úloha nemá platné riešenie.\n\nAnswer:",
+    "model_answer": "Keď Mária zamenila posledné dve číslice roku svojho narodenia, uviedla tak rok, ktorý je o 27 rokov starší. Rozdiel medzi skutočným a zameneným rokom narodenia je teda 27. Ak označíme posledné dve číslice skutočného roku narodenia ako \\(10a + b\\) (kde \\(a\\) je desiatková a \\(b\\) jednotková číslica), potom zamenený rok je \\(10b + a\\). Ich rozdiel je \\(9(a - b) = 27\\), čiže \\(a - b = 3\\).\n\nMária ešte nemala 20 rokov, takže jej vek je menší ako 20. Predpokladajme, že súťaž prebieha v roku 2000. Potom jej skutočný rok narodenia je \\(19ab\\). Vek sa vypočíta ako \\(2000 - (1900 + 10a + b) = 100 - (10a + b)\\). Keďže vek je menší ako 20, platí \\(100 - (10a + b) < 20\\), čiže \\(10a + b > 80\\). Zároveň z podmienky \\(a - b = 3\\) sú možné dvojice \\((a, b)\\): \\((3,0)\\), \\((4,1)\\), \\((5,2)\\), \\((6,3)\\), \\((7,4)\\), \\((8,5)\\), \\((9,6)\\). Hodnoty \\(10a + b\\) sú postupné: 30, 41, 52, 63, 74, 85, 96. Podmienku \\(10a + b > 80\\) spĺňajú iba 85 a 96.\n\nPre \\(10a + b = 85\\) (t.j. rok narodenia 1985) je vek \\(2000 - 1985 = 15\\). Pre \\(10a + b = 96\\) (rok narodenia 1996) je vek \\(2000 - 1996 = 4\\). Keďže Mária je pravdepodobne teenager (a v súťaži väčšinou účinkujú staršie deti), vek 4 roky nie je typický. Preto je správny vek 15 rokov.\n\nOdpoveď teda je C) 15 rokov.\n\n\\boxed{C}"
+  },
+  {
+    "id": "64",
+    "prompt": "V krabici je 20 balónov v troch rôznych farbách – modrej, červenej a bielej. Aký najmenší počet balónov musíme z krabice vytiahnuť, aby sme mali istotu, že aspoň 5 z nich bude mať rovnakú farbu?\n\nOptions:\nA) 13 balónov.\nB) Úloha nemá platné riešenie.\nC) 12 balónov.\nD) 20 balónov.\nE) 5 balónov.\nF) 10 balónov.\n\nAnswer:",
+    "model_answer": "Aby sme mali istotu, že aspoň 5 balónov má rovnakú farbu, musíme zvážiť najhorší možný scenár, keď sa snažíme tomuto vyhnúť. Môžeme vytiahnuť najviac 4 balóny každej farby (modrej, červenej a bielej), čo je spolu 12 balónov, bez toho, aby sme mali 5 balónov rovnakej farby. Ak vytiahneme 13. balón, nech už je akéhokoľvek farby, táto farba bude mať teraz 5 balónov. Preto je najmenší počet 13.\n\nOdpoveď: A) 13 balónov."
+  },
+  {
+    "id": "65",
+    "prompt": "Na vymyslenej planéte s názvom Matrix má rok len 3 mesiace a mesiac iba 10 dní. Ak je Karol na Zemi starý 360 dní, aký starý by bol Karol na planéte Matrix?\n\nOptions:\nA) 36 rokov.\nB) 3 roky.\nC) 120 rokov.\nD) 30 rokov.\nE) 12 rokov.\nF) 1 rok.\n\nAnswer:",
+    "model_answer": "Karol ma 360 dni (wiek w dniach na Ziemi). Na planecie Matrix rok trwa 3 miesiące × 10 dni = 30 dni. Aby obliczyć jego wiek na Matrix, dzielimy 360 przez 30:\n\n\\[\n\\frac{360}{30} = 12\n\\]\n\nZatem Karol ma 12 lat na planecie Matrix.\n\nOdpowiedź: **E) 12 rokov.**"
+  },
+  {
+    "id": "66",
+    "prompt": "Ondrej býva vedľa Branislava, Hana oproti Klaudii, Erik vedľa Františka, Daniel vedľa Ondreja, František naproti Daniela a vedľa Hany, Ladislav vedľa Erika. Čo platí?\n\nOptions:\nA) Klaudia býva vedľa Františka.\nB) Hana býva oproti Ondrejovi.\nC) Erik býva oproti Branislava.\nD) Klaudia býva vedľa Daniela.\nE) Ladislav býva vedľa Daniela.\nF) Žiadne z uvedených tvrdení neplatí.\n\nAnswer:",
+    "model_answer": "Na základe uvedených podmienok možno usporiadať osem osôb okolo kruhového stola takto (v smere hodinových ručičiek): František, Hana, Branislav, Ondrej, Daniel, Klaudia, Ladislav, Erik.\n\nV tomto usporiadaní platí:\n- Klaudia (pozícia 6) je priamo vedľa Daniela (pozícia 5).\n- Ostatné tvrdenia (A, B, C, E) neplatia.\n\n✅ Teda správna odpoveď je **D) Klaudia býva vedľa Daniela.**"
+  },
+  {
+    "id": "67",
+    "prompt": "Na natrenie všetkých stien kocky sme potrebovali 3 kilogramy farby. Koľko farby potrebujeme ku natretiu všetkých stien kocky s trikrát dlhšou hranou?\n\nOptions:\nA) 9 kilogramov.\nB) 18 kilogramov.\nC) 27 kilogramov.\nD) 12 kilogramov.\nE) 54 kilogramov.\nF) 81 kilogramov.\n\nAnswer:",
+    "model_answer": "The amount of paint needed is proportional to the surface area to be painted. For a cube with edge length \\(a\\), the total surface area is \\(6a^2\\). If the edge length is tripled to \\(3a\\), the new surface area becomes \\(6(3a)^2 = 54a^2\\), which is 9 times the original area. Since painting the original cube required 3 kg of paint, the larger cube will require \\(3 \\times 9 = 27\\) kg of paint.\n\n\\boxed{\\text{C}}"
+  },
+  {
+    "id": "68",
+    "prompt": "Školská knižnica, do ktorej chodia Anna, Lenka a Karel, má veľké množstvo kníh. Učiteľka oznámi, že približný počet je 2010 kníh a vyzve troch žiakov, aby uhádli presný počet. Anna háda že ich je tam práve 2010, Lenka skúsi 1998 a Karol odhadne 2015. Učiteľka odpovie, že rozdiel medzi číslami, ktoré skúšali, a presným číslom je 12, 7 a 5, ale nie v tomto poradí. Koľko je teda v knižnici kníh?\n\nOptions:\nA) 2022 kníh.\nB) 2008 kníh.\nC) V knižnici je 2005 kníh.\nD) V knižnici je 2003 kníh.\nE) V knižnici je 2010 kníh.\nF) 1993 kníh.\n\nAnswer:",
+    "model_answer": "Presný počet kníh v knižnici je 2003.\n\nRozdiely medzi odhadmi žiakov a skutočným počtom sú:  \n- Anna (2010): \\(|2003 - 2010| = 7\\)  \n- Lenka (1998): \\(|2003 - 1998| = 5\\)  \n- Karol (2015): \\(|2003 - 2015| = 12\\)  \n\nTieto hodnoty (12, 7, 5) zodpovedajú zadaným rozdielom, hoci nie v tom poradí, v akom boli menovaní žiaci.\n\n**Odpoveď: D**"
+  },
+  {
+    "id": "69",
+    "prompt": "Marta prišla načas, aby sa stretla so svojou priateľkou Eliškou, ale tá ešte neprišla. Marta sa preto rozhodla na chvíľu odísť a skúšať šťastie každých 10 minút. Eliška prišla len o minútu neskôr, ale keďže Martu nezastihla, rozhodla sa opäť odísť a skúšať šťastie každých 7 minút. Koľkokrát sa bude musieť Eliška vrátiť, aby konečne stretla Martu?\n\nOptions:\nA) 2 krát.\nB) Štyri krát.\nC) Čas stretnutia je 50. minúta od pôvodného času stretnutia.\nD) 8 krát.\nE) Sedem krát.\nF) 5 krát.\n\nAnswer:",
+    "model_answer": "Marta arrives at the scheduled meeting time (t = 0) and leaves immediately, returning every 10 minutes (at t = 0, 10, 20, …). Eliška arrives one minute late (t = 1) and, not finding Marta, leaves and returns every 7 minutes (at t = 1, 8, 15, 22, …). The meeting occurs when both are at the meeting point at the same time.\n\nSolving for the common time: Marta’s times are multiples of 10, and Eliška’s times satisfy t ≡ 1 (mod 7). The smallest positive solution is t = 50 minutes.\n\nEliška’s visits:  \n- t = 1 (initial arrival)  \n- t = 8 (first return)  \n- t = 15 (second return)  \n- t = 22 (third return)  \n- t = 29 (fourth return)  \n- t = 36 (fifth return)  \n- t = 43 (sixth return)  \n- t = 50 (seventh return, meeting Marta)\n\nThus, Eliška returns 7 times before meeting Marta.\n\nThe correct option is E.\n\n\\boxed{E}"
+  },
+  {
+    "id": "70",
+    "prompt": "Ak každý z Petrových priateľov spočítal deň a mesiac svojho narodenia, vyšlo im 35. Žiadny z Petrových priateľov sa nenarodil v rovnaký deň ako ostatní. Koľko najviac kamarátov môže mať Peter?\n\nOptions:\nA) Najviac 8 kamarátov.\nB) Najviac 9 kamarátov.\nC) Štyroch.\nD) Piatich.\nE) Najviac dvanástich.\nF) Siedmich kamarátov.\n\nAnswer:",
+    "model_answer": "Peterovi priatelia majú narodeniny, pre ktoré platí, že súčet dňa a mesiaca sa rovná 35. To znamená, že pre každý mesiac \\(m\\) (číslo od 1 do 12) je deň \\(d = 35 - m\\). Aby bol dátum platný, musí byť deň v rámci počtu dní daného mesiaca.\n\nSkontrolujeme všetky mesiace:\n- Január (1): \\(d = 34\\) – neplatné (max. 31)\n- Február (2): \\(d = 33\\) – neplatné (max. 28/29)\n- Marec (3): \\(d = 32\\) – neplatné (max. 31)\n- Apríl (4): \\(d = 31\\) – neplatné (max. 30)\n- Máj (5): \\(d = 30\\) – platné (máj má 31 dní)\n- Jún (6): \\(d = 29\\) – platné (jún má 30 dní)\n- Júl (7): \\(d = 28\\) – platné (júl má 31 dní)\n- August (8): \\(d = 27\\) – platné (august má 31 dní)\n- September (9): \\(d = 26\\) – platné (september má 30 dní)\n- Október (10): \\(d = 25\\) – platné (október má 31 dní)\n- November (11): \\(d = 24\\) – platné (november má 30 dní)\n- December (12): \\(d = 23\\) – platné (december má 31 dní)\n\nZískame teda 8 platných dátumov. Priatelia sa nemôžu narodiť v ten istý deň (t. j. v rovnaký dátum), čo je splnené, pretože všetky dátumy sú rôzne. Peter teda môže mať najviac 8 priateľov.\n\nOdpoveď: **A) Najviac 8 kamarátov.**"
+  },
+  {
+    "id": "71",
+    "prompt": "Chlapci zo skautského oddielu prešli za 4 dni vzdialenosť 82km. Každý ďalší deň išli pešo o 3 kilometre menej ako predchádzajúci deň. Koľko kilometrov prešli skauti v prvý deň?\n\nOptions:\nA) 20,5km\nB) 28km\nC) 16km\nD) 25km\nE) 22km\nF) 31km\n\nAnswer:",
+    "model_answer": "The total distance covered over four days is 82 km, with each subsequent day being 3 km less than the previous day. Let the distance on the first day be \\(a\\). Then the distances for the four days are:\n\n- Day 1: \\(a\\)\n- Day 2: \\(a - 3\\)\n- Day 3: \\(a - 6\\)\n- Day 4: \\(a - 9\\)\n\nSumming these gives:\n\n\\[\na + (a - 3) + (a - 6) + (a - 9) = 4a - 18 = 82\n\\]\n\nSolving for \\(a\\):\n\n\\[\n4a = 82 + 18 = 100 \\implies a = 25\n\\]\n\nThus, the distance covered on the first day is 25 km, which corresponds to option D.\n\nAnswer: D) 25km"
+  },
+  {
+    "id": "72",
+    "prompt": "Desať mačiek zje 10 myší za 10 minút. Koľko mačiek je potrebných na zjedenie 100 myší za 100 minút?\n\nOptions:\nA) 100\nB) 1\nC) 1000\nD) 20\nE) 10\nF) Nie je možné určiť, pretože máme nedostatok informácií.\n\nAnswer:",
+    "model_answer": "Na základe zadania vieme, že 10 mačiek zje 10 myší za 10 minút. To znamená, že jedna mačka zje 1 myš za 10 minút. Za 100 minút teda jedna mačka zje 10 myší. Na zjedenie 100 myší za 100 minút je potrebných 10 mačiek.\n\nSprávna odpoveď je teda **E) 10**."
+  },
+  {
+    "id": "73",
+    "prompt": "Ak napíšeme sedem po sebe idúcich celých čísel a súčet troch najmenších je 33, aký je súčet troch najväčších čísel?\n\nOptions:\nA) 44\nB) 46\nC) Žiadna z odpovedí nie je správna.\nD) 33\nE) 12\nF) 29\n\nAnswer:",
+    "model_answer": "Súčet troch najväčších čísel je 45, čo nie je medzi uvedenými možnosťami. Preto je správna odpoveď C) Žiadna z odpovedí nie je správna.\n\nSúčet troch najmenších z daných sedem po sebe idúcich celých čísel je 33, čo vedie k číslam 10, 11, 12, 13, 14, 15 a 16. Potom súčet troch najväčších (14, 15, 16) je 45.\n\n**Answer:** C"
+  },
+  {
+    "id": "74",
+    "prompt": "Na označenie všetkých strán knihy je potrebných 2010 číslic. Koľko strán má kniha?\n\nOptions:\nA) 705 strán.\nB) 1005 strán.\nC) 703 strán.\nD) 670 strán.\nE) 607 strán.\nF) 706 strán.\n\nAnswer:",
+    "model_answer": "Kniha má 706 strán.\n\nVýpočet:\n- Stránky 1–9: 9 strán × 1 číslica = 9 číslic\n- Stránky 10–99: 90 strán × 2 číslice = 180 číslic\n- Spolu pre dvojciferné: 9 + 180 = 189 číslic\n- Zostávajúce číslice: 2010 – 189 = 1821 číslic\n- Stránky s tromi číslicami: 1821 ÷ 3 = 607 strán\n- Celkový počet strán: 9 + 90 + 607 = 706\n\nOdpoveď teda zodpovedá možnosti F."
+  },
+  {
+    "id": "75",
+    "prompt": "Pred dvoma rokmi mali Simona a Žaneta spolu 15 rokov. V súčasnosti má Simona 13 rokov. Za koľko rokov bude mať Žaneta 9 rokov?\n\nOptions:\nA) Za 5 rokov.\nB) Za 6 rokov.\nC) Za 2 roky.\nD) Za 3 roky.\nE) Za rok.\nF) Žaneta mala 9 rokov a to už pomerne dávno.\n\nAnswer:",
+    "model_answer": "Simona má teraz 13 rokov. Pred dvoma rokmi mala teda 11 rokov. Spolu so Žanetou mali vtedy 15 rokov, takže Žaneta mala pred dvoma rokmi 4 roky. Teraz má teda Žaneta 6 rokov.\n\nAby mala Žaneta 9 rokov, musí uplynúť 9 − 6 = 3 roky.\n\nSprávna odpoveď je teda **D) Za 3 roky**."
+  },
+  {
+    "id": "76",
+    "prompt": "Priemerný vek hráčov 11 členného futbalového tímu je 25 rokov. Ak viete, že jeden 35 ročný hráč bol nedávno vylúčený z tímu, aký je priemerný vek zvyšných hráčov?\n\nOptions:\nA) 24,1 rokov.\nB) 24 rokov.\nC) 21,8 rokov.\nD) 27,5 rokov.\nE) 26 rokov.\nF) 25 rokov.\n\nAnswer:",
+    "model_answer": "Priemerný vek 11 hráčov je 25 rokov, takže súčet ich vekov je \\(11 \\times 25 = 275\\) rokov. Po vylúčení 35-ročného hráča zostane 10 hráčov so súčtom vekov \\(275 - 35 = 240\\) rokov. Priemerný vek zvyšných hráčov je teda \\(240 / 10 = 24\\) rokov.\n\nSprávna odpoveď je **B) 24 rokov**."
+  },
+  {
+    "id": "77",
+    "prompt": "Pes je deväťkrát ťažší ako mačka, myš je dvadsaťkrát ľahšia ako mačka a repa je šesťkrát ťažšia ako myš. Koľkokrát je pes ťažší ako repa?\n\nOptions:\nA) 30 krát.\nB) 54 krát.\nC) 1080 krát.\nD) 1,5 krát.\nE) 120 krát.\nF) 3 krát.\n\nAnswer:",
+    "model_answer": "Pes je 30-krát ťažší ako repa.\n\nVýpočet:  \nHmotnosť mačky označme \\( C \\).  \nPes je 9-krát ťažší: \\( P = 9C \\).  \nMyš je 20-krát ľahšia: \\( M = \\frac{C}{20} \\).  \nRepa je 6-krát ťažšia ako myš: \\( R = 6M = 6 \\cdot \\frac{C}{20} = \\frac{3C}{10} \\).  \nPomer hmotnosti psa a repy: \\( \\frac{P}{R} = \\frac{9C}{\\frac{3C}{10}} = 9 \\cdot \\frac{10}{3} = 30 \\).\n\nOdpoveď: A) 30 krát."
+  },
+  {
+    "id": "78",
+    "prompt": "Lenka a Pavol hrali hru kameň, nožnice, papier (kde kameň otupí nožnice, papier zabalí kameň a nožnice strihajú papier) desaťkrát za sebou. Pavol dal trikrát kameň, šesťkrát nožnice a raz papier. Lenka ukázala dvakrát kameň, štyrikrát nožnice a štyrikrát papier. Žiadne kolo skončilo nerozhodne a poradie, v ktorom Pavol a Lenka použili kameň, nožnice alebo papier, nie je známe. Koľkokrát Pavol prehral?\n\nOptions:\nA) 7 krát.\nB) Tri krát.\nC) Dva krát.\nD) 4 krát.\nE) Raz.\nF) 6 krát.\n\nAnswer:",
+    "model_answer": "Pavol prehral trikrát.\n\nV hre kameň, nožnice, papier Pavol použil 3× kameň, 6× nožnice a 1× papier. Lenka použila 2× kameň, 4× nožnice a 4× papier. Pomocou sústav rovníc pre párovanie ich ťahov (bez remíz) vychádza, že Pavol prehral v troch kolách: keď ukázal nožnice proti kameňu (2×) a keď ukázal papier proti nožniciam (1×). Žiadna iná kombinácia nevyhovuje zadaným počtom ťahov.\n\n\\boxed{B}"
+  },
+  {
+    "id": "79",
+    "prompt": "Hodinky, ktoré ukazujú hodiny, minúty a sekundy, majú týždenný náskok 2 minúty a 48 sekúnd. Hodiny natiahneme v nedeľu na poludnie. Aký čas budú ukazovať nasledujúci štvrtok o 16:00?\n\nOptions:\nA) 16:04:00\nB) 16:01:48\nC) 16:01:00\nD) 16:02:48\nE) 16:01:40\nF) 15:58:20\n\nAnswer:",
+    "model_answer": "The watch gains 2 minutes and 48 seconds per week, which is 168 seconds per 7 days. The elapsed time from Sunday noon to Thursday 16:00 is 4 days and 4 hours, or 100 hours. The proportional gain over this period is:\n\n\\[\n\\text{Gain} = 168 \\times \\frac{100}{168} = 100 \\text{ seconds} = 1 \\text{ minute } 40 \\text{ seconds}.\n\\]\n\nAdding this gain to the actual time of 16:00:00 gives 16:01:40.\n\nThus, the watch will show 16:01:40.\n\n\\boxed{E}"
+  },
+  {
+    "id": "80",
+    "prompt": "Tri utorky v mesiaci pripadli na párne dátumy. Ktorý deň v týždni pripadol na 21. deň tohto mesiaca?\n\nOptions:\nA) Pondelok.\nB) Utorok.\nC) Streda.\nD) Štvrtok.\nE) Piatok.\nF) Nedeľa.\n\nAnswer:",
+    "model_answer": "Tri utorky pripadli na párne dátumy, čo znamená, že v mesiaci boli tri utorky s párnym dátumom. Tento podmienka je splnená len vtedy, keď má mesiac aspoň 30 dní a prvý utorok je na 2. deň mesiaca. To znamená, že 1. deň mesiaca je pondelok. Potom 21. deň mesiaca vychádza na nedeľu.\n\nOdpoveď: **F) Nedeľa**."
+  },
+  {
+    "id": "81",
+    "prompt": "Na pretekoch na 100 metrov sa zúčastňuje 625 pretekárov. Preteká sa na 5 tratiach a do ďalšej časti súťaže postupuje len víťaz každého behu – ostatní sú vyradení. Aký minimálny počet behov je potrebný na určenie víťaza pretekov?\n\nOptions:\nA) 125\nB) 4\nC) Minimálny počet je 31 behov.\nD) Minimálny počet je 156.\nE) Minimálny počet je 155.\nF) 124\n\nAnswer:",
+    "model_answer": "Na určenie víťaza medzi 625 pretekármi pomocou behov na 5 tratiach, kde z každého behu postupuje iba víťaz, je potrebných viacero kôl. V každom kole sa počet pretekárov zníži na pätinu, pričom každé kolo pozostáva z určitého počtu behov.\n\nPostup:\n- 1. kolo: 625 pretekárov → 625/5 = 125 behov → postupuje 125 víťazov.\n- 2. kolo: 125 pretekárov → 125/5 = 25 behov → postupuje 25 víťazov.\n- 3. kolo: 25 pretekárov → 25/5 = 5 behov → postupuje 5 víťazov.\n- 4. kolo: 5 pretekárov → 5/5 = 1 beh → určí sa víťaz.\n\nCelkový počet behov: 125 + 25 + 5 + 1 = 156.\n\nTento počet je minimálny, pretože každý beh eliminuje najviac 4 pretekárov (pri plnom počte 5 účastníkov) a na elimináciu 624 pretekárov je potrebných aspoň 624/4 = 156 behov. Iné rozloženie by viedlo k väčšiemu počtu behov.\n\nSprávna odpoveď je teda D) Minimálny počet je 156."
+  },
+  {
+    "id": "82",
+    "prompt": "Na podstavci stojí socha, ktorá je o 1/3 vyššia ako podstavec. O koľko je podstavec nižší ako socha?\n\nOptions:\nA) O jednu štvrtinu.\nB) O jednu tretinu.\nC) O tri štvrtiny.\nD) O štyri tretiny.\nE) Podstavec nie je nižší.\nF) Nemožno určiť.\n\nAnswer:",
+    "model_answer": "Socha je o 1/3 vyššia ako podstavec, čo znamená, že ak je výška podstavca \\(P\\), výška sochy je \\(S = \\frac{4}{3}P\\). Rozdiel medzi ich výškami je \\(S - P = \\frac{1}{3}P\\). Vzhľadom na výšku sochy je podstavec nižší o \\(\\frac{1}{4}\\) jej výšky.\n\nSprávna odpoveď je teda **A) O jednu štvrtinu.**"
+  },
+  {
+    "id": "83",
+    "prompt": "Peter zabudol posledné tri číslice svojho kódu 19 921 993 [][][]. Zapamätal si však, že je deliteľné číslom 25. Koľko kombinácií pripadá do úvahy?\n\nOptions:\nA) 4 kombinácie.\nB) 10\nC) 1\nD) 40\nE) 14 kombinácií.\nF) 36 kombinácií.\n\nAnswer:",
+    "model_answer": "The entire code is an 11-digit number of the form 19921993abc, where \\(a\\), \\(b\\), and \\(c\\) are digits from 0 to 9. For the number to be divisible by 25, the last two digits \\(bc\\) must form a number divisible by 25. The possible pairs for \\(bc\\) are 00, 25, 50, and 75.\n\nThe digit \\(a\\) can be any digit from 0 to 9, giving 10 choices. For each valid \\(bc\\), there are 10 possibilities for \\(a\\). Thus, the total number of combinations is:\n\n\\[\n10 \\times 4 = 40.\n\\]\n\nAlternatively, the condition is equivalent to the three-digit number \\(abc\\) being divisible by 25. There are 40 multiples of 25 between 000 and 999 inclusive.\n\nThus, the correct answer is **D) 40 kombinácií**."
+  },
+  {
+    "id": "84",
+    "prompt": "Lukáš strieľal na strelnici. Zaplatil za päť striel. Za každý zásah mohol strieľať dvakrát zadarmo. Koľkokrát Lukáš zasiahol cieľ, ak vystrelil celkom 17 krát?\n\nOptions:\nA) 6 krát.\nB) 17 krát.\nC) 5 krát.\nD) 12 krát.\nE) 11. krát.\nF) Nemožno určiť.\n\nAnswer:",
+    "model_answer": "Lukáš zaplatil za 5 výstrelov. Za každý zásah získal 2 ďalšie výstrely zadarmo. Celkovo vystrelil 17-krát.\n\nAk označíme počet zásahov ako \\(H\\), potom celkový počet výstrelov je daný vzťahom:  \n\\[\n5 + 2H = 17.\n\\]  \nOdtiaľ dostávame:  \n\\[\n2H = 12 \\quad \\Rightarrow \\quad H = 6.\n\\]\n\nLukáš teda zasiahol cieľ 6-krát.\n\nSprávna odpoveď je **A) 6 krát**."
+  },
+  {
+    "id": "85",
+    "prompt": "Pavol hovorí: „Mám toľko bratov ako sestier.“. Jeho sestra hovorí: „Mám dvakrát toľko bratov ako sestier.“. Koľko detí je v rodine?\n\nOptions:\nA) 5\nB) 3 deti.\nC) 4 deti.\nD) 6 detí.\nE) 4 chlapci a 3 dievčatá.\nF) 8\n\nAnswer:",
+    "model_answer": "Pavol je chlapec, takže počet jeho bratov je \\(b - 1\\) a počet sestier je \\(g\\). Podľa jeho výroku platí:\n\n\\[\nb - 1 = g\n\\]\n\nJeho sestra má \\(b\\) bratov a \\(g - 1\\) sestier. Podľa jej výroku platí:\n\n\\[\nb = 2(g - 1)\n\\]\n\nRiešením sústavy dostaneme \\(b = 4\\) a \\(g = 3\\). Celkový počet detí je teda 7, čo zodpovedá možnosti E: 4 chlapci a 3 dievčatá.\n\n**Odpoveď: E**"
+  },
+  {
+    "id": "86",
+    "prompt": "Ondrej, Štefan, Robert a Marek sa stretli na koncerte v Prahe. Každý z nich pochádzal z iného mesta, konkrétne z Košíc, Bardejova, Trnavy a Bratislavy. O každom z nich vieme nasledovné. Ondrej a chlapec z Bratislavy prišli do Prahy v deň koncertu skoro ráno. Ani jeden z nich nikdy nebol v Košiciach ani v Trnave. Robert nie je z Bratislavy, ale do Prahy prišiel v rovnakom čase ako chlapec z Košíc. Marekovi a chlapcovi z Košíc sa koncert veľmi páčil. Odkiaľ je Marek?\n\nOptions:\nA) Z Bardejova.\nB) Z Prahy.\nC) Z Košíc.\nD) Z Bratislavy.\nE) Z Trnavy.\nF) Nevedno.\n\nAnswer:",
+    "model_answer": "Marek pochádza z Bratislavy.\n\nNa základe uvedených informácií sme priradili každému z chlapcov jedno mesto:\n\n- Ondrej je z Bardejova (lebo nie je z Bratislavy, Košíc ani Trnavy).\n- Robert je z Trnavy (lebo nie je z Bratislavy ani z Košíc).\n- Štefan je z Košíc (ako jediný zostávajúci pre toto mesto).\n- Marek je teda z Bratislavy.\n\nVšetky podmienky sú splnené, preto je odpoveď D.\n\nAnswer: D"
+  },
+  {
+    "id": "87",
+    "prompt": "Uhlopriečka rovnoramenného lichobežníka je dlhá 16 centimetrov a so základňou lichobežníka zviera uhol 45º. Aký je jej obsah?\n\nOptions:\nA) 128 centimetrov kubických.\nB) 128 centimetrov štvorcových.\nC) 256 centimetrov kubických.\nD) 181 centimetrov štvorcových.\nE) 181 centimetrov kubických.\nF) 256 centimetrov štvorcových.\n\nAnswer:",
+    "model_answer": "The diagonal of the isosceles trapezoid forms a 45° angle with the base, which implies that the height \\(h\\) and the segment of the base adjacent to the diagonal are equal. Given the diagonal length \\(d = 16\\, \\text{cm}\\), we have \\(d = h\\sqrt{2}\\), so \\(h = \\frac{16}{\\sqrt{2}} = 8\\sqrt{2}\\, \\text{cm}\\).\n\nIn an isosceles trapezoid, the sum of the bases is twice the height when the diagonal makes a 45° angle. Thus, the area is:\n\\[\n\\text{Area} = \\frac{1}{2} \\times (\\text{sum of bases}) \\times h = \\frac{1}{2} \\times 2h \\times h = h^2 = (8\\sqrt{2})^2 = 128\\, \\text{cm}^2.\n\\]\nThe correct answer is B) 128 centimetrov štvorcových."
+  },
+  {
+    "id": "88",
+    "prompt": "Počas piatich rokov študent absolvoval 31 skúšok. Počnúc druhým ročníkom absolvoval v každom roku vždy viac skúšok ako v predchádzajúcom roku. V piatom ročníku bol počet vykonaných skúšok trikrát vyšší ako v prvom ročníku. Koľko skúšok absolvoval študent počas štvrtého ročníka?\n\nOptions:\nA) 7\nB) 6\nC) 9\nD) 8\nE) 5\nF) 10\n\nAnswer:",
+    "model_answer": "Študent absolvoval 8 skúšok počas štvrtého ročníka.\n\nNech \\(a_1, a_2, a_3, a_4, a_5\\) predstavujú počty skúšok v jednotlivých rokoch. Z podmienok máme:\n- \\(a_1 + a_2 + a_3 + a_4 + a_5 = 31\\),\n- \\(a_1 < a_2 < a_3 < a_4 < a_5\\),\n- \\(a_5 = 3a_1\\).\n\nDosadením \\(a_5 = 3a_1\\) do súčtu dostaneme:\n\\[\na_1 + a_2 + a_3 + a_4 + 3a_1 = 4a_1 + a_2 + a_3 + a_4 = 31,\n\\]\nčo znamená\n\\[\na_2 + a_3 + a_4 = 31 - 4a_1.\n\\]\n\nPre striktne rastúce celé čísla platia obmedzenia:\n- Minimálny súčet \\(a_2 + a_3 + a_4\\) je \\((a_1+1) + (a_1+2) + (a_1+3) = 3a_1 + 6\\).\n- Maximálny súčet je \\((3a_1-1) + (3a_1-2) + (3a_1-3) = 9a_1 - 6\\).\n\nTeda:\n\\[\n3a_1 + 6 \\leq 31 - 4a_1 \\leq 9a_1 - 6.\n\\]\n\nZ ľavej nerovnosti:\n\\[\n3a_1 + 6 \\leq 31 - 4a_1 \\implies 7a_1 \\leq 25 \\implies a_1 \\leq 3.\n\\]\nZ pravej nerovnosti:\n\\[\n31 - 4a_1 \\leq 9a_1 - 6 \\implies 37 \\leq 13a_1 \\implies a_1 \\geq 3.\n\\]\nJediné celočíselné riešenie je \\(a_1 = 3\\). Potom \\(a_5 = 9\\) a súčet \\(a_2 + a_3 + a_4 = 31 - 12 = 19\\).\n\nTreba nájsť celé čísla \\(a_2, a_3, a_4\\) také, že \\(3 < a_2 < a_3 < a_4 < 9\\) a ich súčet je 19. Možné trojice sú:\n- \\((4, 7, 8)\\) s \\(a_4 = 8\\),\n- \\((5, 6, 8)\\) s \\(a_4 = 8\\).\n\nV oboch prípadoch je \\(a_4 = 8\\).\n\nVýsledok teda je 8, čo zodpovedá možnosti D.\n\n\\boxed{D}"
+  },
+  {
+    "id": "89",
+    "prompt": "Na troch policiach je spolu 64 kníh. Ak presunieme 5 kníh z druhej police na tretiu, potom bude rovnaký počet kníh na prvej a na druhej polici a počet kníh na tretej polici rovnaký ako počet kníh na prvej a na druhej polici dokopy. Koľko kníh je na tretej polici?\n\nOptions:\nA) 32\nB) 16\nC) 21\nD) 24\nE) 27\nF) 29\n\nAnswer:",
+    "model_answer": "The initial number of books on the shelves is given by \\(a\\), \\(b\\), and \\(c\\). From the conditions:\n\n- Total books: \\(a + b + c = 64\\).\n- After moving 5 books from the second shelf to the third, the first and second shelves have the same number: \\(a = b - 5\\).\n- After the move, the third shelf has as many books as the first and second combined: \\(c + 5 = a + (b - 5)\\).\n\nSolving these equations yields \\(a = 16\\), \\(b = 21\\), and \\(c = 27\\). Thus, initially, the third shelf has 27 books.\n\n\\boxed{E}"
+  },
+  {
+    "id": "90",
+    "prompt": "V krabici je 50 kociek bielej, modrej a červenej farby. Bielych kociek je 11 krát viac ako modrých. Červených je menej ako bielych, ale viac ako modrých. O koľko menej je červených kociek ako bielych?\n\nOptions:\nA) 14\nB) 11\nC) 19\nD) 30\nE) 21\nF) 3\n\nAnswer:",
+    "model_answer": "The only solution satisfying all conditions is: blue cubes = 3, white cubes = 33, and red cubes = 14. Therefore, the number of red cubes is 19 fewer than white cubes.\n\nAnswer: C) 19"
+  },
+  {
+    "id": "91",
+    "prompt": "Študenti musia napísať 8 záverečných prác, z ktorých za každú môžu získať 2 až 5 bodov. Zo šiestich napísaných prác získala Anna v priemere 3,5 bodu. Aký priemerný počet bodov musí Anna získať zo zvyšných dvoch prác, aby jej celkový priemer dosiahol 4 body?\n\nOptions:\nA) 5 bodov.\nB) 4 body.\nC) 11 bodov.\nD) 3,5 bodu.\nE) 6 bodov.\nF) Celkového priemeru 4 nie je možné dosiahnuť.\n\nAnswer:",
+    "model_answer": "Celkový počet bodov potrebný na dosiahnutie priemeru 4 bodov z 8 prác je \\(8 \\times 4 = 32\\) bodov. Anna už zo šiestich prác získala \\(6 \\times 3,5 = 21\\) bodov. Zvyšné dva práce by teda musia mať spolu \\(32 - 21 = 11\\) bodov, čo je v priemere \\(11 / 2 = 5,5\\) bodu na prácu. Avšak maximálny možný počet bodov za prácu je 5, takže maximálny súčet za dve práce je 10 bodov. Dosiahnutie 11 bodov je nemožné, preto nie je možné dosiahnuť celkový priemer 4 body.\n\nOdpoveď: **F) Celkového priemeru 4 nie je možné dosiahnuť.**"
+  },
+  {
+    "id": "92",
+    "prompt": "Keď prší, mačka je buď v izbe, alebo v pivnici. Keď je mačka v izbe, myš je v diere a syr je v chladničke. Keď je syr na stole a mačka je v pivnici, myš je v izbe. Teraz prší a syr je na stole. Potom musí platiť:\n\nOptions:\nA) Mačka je v izbe.\nB) Myš je v diere.\nC) Buď je mačka v izbe, alebo myš je v diere.\nD) Mačka je v pivnici a myš je v izbe.\nE) Ani jedna z týchto situácií nemôže nastať.\nF) Mačka je v pivnici a myš je v diere.\n\nAnswer:",
+    "model_answer": "Na základe zadaných podmienok a logickej analýzy vyplýva, že keď prší a syr je na stole, mačka musí byť v pivnici a myš v izbe. Preto správna odpoveď je:\n\n**D) Mačka je v pivnici a myš je v izbe.**"
+  },
+  {
+    "id": "93",
+    "prompt": "Koľkokrát sa použije číslica 2 pri číslovaní všetkých strán knihy s počtom strán 2010?\n\nOptions:\nA) 600 krát.\nB) 622 krát.\nC) 201 krát.\nD) 894 krát.\nE) 621 krát.\nF) 612 krát.\n\nAnswer:",
+    "model_answer": "Pri číslovaní strán od 1 do 2010 sa číslica 2 vyskytuje celkovo 612-krát.\n\nVýpočet:\n- Od 1 do 1999 sa číslica 2 vyskytuje 600-krát (rovnomerne na miestach jednotiek, desiatok a stoviek).\n- Od 2000 do 2010 sa vyskytuje 12-krát (každé číslo má 2 na mieste tisícok, okrem čísla 2002, ktoré má navyše 2 aj na mieste jednotiek).\n\nSúčet: 600 + 12 = 612.\n\nSprávna odpoveď je teda **F) 612 krát**."
+  },
+  {
+    "id": "94",
+    "prompt": "Koľko existuje trojuholníkov, pre ktoré platí, že dĺžka všetkých ich strán vyjadrená v centimetroch má celočíselnú hodnotu a obvod je rovný 15 centimetrom?\n\nOptions:\nA) 5\nB) 8\nC) 3\nD) 6\nE) 7\nF) 19\n\nAnswer:",
+    "model_answer": "Požadované trojuholníky majú celočíselné dĺžky strán a obvod 15 cm. Hľadáme všetky trojice kladných celých čísel \\((a, b, c)\\) s vlastnosťami \\(a \\leq b \\leq c\\), \\(a + b + c = 15\\) a trojuholníková nerovnosť \\(a + b > c\\).\n\nNajväčšia strana \\(c\\) môže nadobúdať hodnoty 5, 6 alebo 7 (pretože \\(c < 7,5\\) z podmienky \\(a + b > c\\) a súčasne \\(c \\geq 5\\), keďže strany sú usporiadané).\n\n- Pre \\(c = 5\\): \\(a + b = 10\\), jediná možnosť s \\(a \\leq b \\leq 5\\) je \\((5, 5, 5)\\).\n- Pre \\(c = 6\\): \\(a + b = 9\\), možnosti: \\((3, 6, 6)\\) a \\((4, 5, 6)\\).\n- Pre \\(c = 7\\): \\(a + b = 8\\), možnosti: \\((1, 7, 7)\\), \\((2, 6, 7)\\), \\((3, 5, 7)\\) a \\((4, 4, 7)\\).\n\nSpolu je teda 7 rôznych trojuholníkov.\n\nSprávna odpoveď je **E) 7**."
+  },
+  {
+    "id": "95",
+    "prompt": "V oáze žijú jednohrbé a dvojhrbé ťavy (dromedáre a ťavy). Ak je celkový počet hláv týchto zvierat 28 a počet hrbov je 45, koľko z nich je jednohrbých tiav?\n\nOptions:\nA) 11\nB) 17\nC) 14\nD) 28\nE) 15\nF) 45\n\nAnswer:",
+    "model_answer": "The number of one-humped camels is 11.\n\nLet \\( x \\) be the number of one-humped camels and \\( y \\) be the number of two-humped camels. Each animal has one head, so:\n\\[\nx + y = 28\n\\]\nOne-humped camels have 1 hump each, and two-humped camels have 2 humps each, so the total number of humps is:\n\\[\nx + 2y = 45\n\\]\nSubtracting the first equation from the second gives:\n\\[\n(x + 2y) - (x + y) = 45 - 28 \\implies y = 17\n\\]\nThen:\n\\[\nx = 28 - 17 = 11\n\\]\nThus, there are 11 one-humped camels.\n\n✅ A) 11"
+  },
+  {
+    "id": "96",
+    "prompt": "Správca pracuje každý utorok, každý piatok a každý nepárny deň v mesiaci. Aký je maximálny počet po sebe nasledujúcich dní, ktoré môže odpracovať v jednom kuse?\n\nOptions:\nA) 5\nB) 6\nC) 4\nD) 7\nE) 8\nF) 2\n\nAnswer:",
+    "model_answer": "The manager works on every Tuesday, every Friday, and every odd-numbered day of the month. To find the maximum number of consecutive days he can work, we need to consider a sequence where each day satisfies at least one condition: either the date is odd, or the day of the week is Tuesday or Friday.\n\nBy analyzing possible sequences within and across months, the longest achievable sequence is 6 days. For example, in a 31-day month starting on Monday, the dates 29–31 (of the first month) and 1–3 (of the next month) all satisfy the conditions:\n- Day 29 (Monday, odd) – worked.\n- Day 30 (Tuesday, even) – worked (Tuesday).\n- Day 31 (Wednesday, odd) – worked.\n- Day 1 (Thursday, odd) – worked.\n- Day 2 (Friday, even) – worked (Friday).\n- Day 3 (Saturday, odd) – worked.\n\nNo sequence of 7 or more days can satisfy all conditions due to the pattern of even dates requiring Tuesday or Friday, which cannot align for more than two such even dates in a row across month boundaries.\n\nThus, the maximum is 6 days.\n\nAnswer: B) 6"
+  },
+  {
+    "id": "97",
+    "prompt": "Koľko trojciferných celých čísiel má tú vlastnosť, že ich číslica na pozícii desiatok je priemerom ostatných dvoch?\n\nOptions:\nA) 50\nB) 25\nC) 45\nD) 20\nE) 40\nF) 90\n\nAnswer:",
+    "model_answer": "Požadovaných trojciferných čísel je 45.\n\nPodmienka je, že číslica na mieste desiatok (B) je priemerom stovkovej číslice (A) a jednotkovej číslice (C), teda B = (A + C)/2. To znamená, že A a C majú rovnakú paritu (obe párne alebo obe nepárne). Pre A (1–9) existuje vždy 5 možností pre C s rovnakou paritou (pre párne A: C ∈ {0,2,4,6,8}; pre nepárne A: C ∈ {1,3,5,7,9}). Keďže A má 9 možností, celkový počet je 9 × 5 = 45. Pre každú takúto dvojicu (A, C) je B určené jednoznačne a spĺňa podmienku 0 ≤ B ≤ 9.\n\nSprávna odpoveď je teda **C) 45**."
+  },
+  {
+    "id": "98",
+    "prompt": "Muž sa pozerá na portrét. Niekto sa ho opýta: „Na koho sa pozeráš?“. Muž odpovie: „Bratov a sestry nemám, ale otec tohto muža je synom môjho otca.“. Na koho sa muž pozeral?\n\nOptions:\nA) Na seba.\nB) Na svojho syna.\nC) Na svojho otca.\nD) Na svojho strýka.\nE) Na svojho dedka.\nF) Na neznámu osobu.\n\nAnswer:",
+    "model_answer": "Muž nemá súrodencov, takže jediný syn jeho otca je on sám. Preto keď povie, že \"otec tohto muža je synom môjho otca\", znamená to, že otec osoby na portréte je on sám. Osoba na portréte je teda jeho syn.\n\nOdpoveď: **B) Na svojho syna.**"
+  },
+  {
+    "id": "99",
+    "prompt": "Na oslave narodenín je 10 hostí a jedna torta. Prvá osoba si odreže 1/10 torty. Druhá osoba si odreže 1/9 zo zvyšku. Tretia si odreže 1/8 z nového zvyšku. Takto to pokračuje, až kým deviata osoba neodreže 1/2 zo zvyšku. Aký veľký kus torty zostane pre desiatu osobu?\n\nOptions:\nA) 1/10\nB) 1/9\nC) 1/2\nD) Žiadny.\nE) 1/100\nF) Nedá sa určiť.\n\nAnswer:",
+    "model_answer": "The first person takes \\( \\frac{1}{10} \\) of the cake, leaving \\( \\frac{9}{10} \\).  \nThe second person takes \\( \\frac{1}{9} \\) of the remainder (\\( \\frac{9}{10} \\)), which is \\( \\frac{1}{10} \\) of the original, leaving \\( \\frac{8}{10} \\).  \nThis pattern continues: each person takes \\( \\frac{1}{10} \\) of the original cake. After nine such cuts, the total taken is \\( 9 \\times \\frac{1}{10} = \\frac{9}{10} \\), leaving \\( \\frac{1}{10} \\) for the tenth person.\n\n\\boxed{A}"
+  },
+  {
+    "id": "100",
+    "prompt": "Existuje 100-poschodová budova. Máš dve identické sklenené gule. Chceš zistiť najvyššie poschodie, z ktorého môžeš guľu zhodiť bez toho, aby sa rozbila. Aký je minimálny počet pokusov, ktorý potrebuješ v najhoršom prípade, aby si toto poschodie zaručene našiel?\n\nOptions:\nA) 100\nB) 50\nC) 25\nD) 14\nE) 10\nF) 2\n\nAnswer:",
+    "model_answer": "Minimálny počet pokusov v najhoršom prípade je **14**. \n\nTento výsledok vychádza z optimálnej stratégie, kde prvé guľo používame na postupné skokové testovanie s klesajúcim intervalom, aby sme čo najviac znížili počet lineárnych testov druhým guľom. Matematicky je maximálny počet poschodí, ktoré možno otestovať s `n` pokusmi, daný súčtom `n + (n-1) + ... + 1 = n(n+1)/2`. Pre `n = 14` dostaneme `105`, čo postačuje na 100 poschodí, kým pre `n = 13` je to len `91`, čo nestačí.\n\n**Odpoveď: D) 14**"
+  }
+]

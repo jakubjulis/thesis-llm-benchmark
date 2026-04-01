@@ -1,0 +1,17 @@
+# API keys
+.env
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Generated benchmark logs
+2026-oss/results/*.log
