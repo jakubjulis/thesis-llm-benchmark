@@ -10,6 +10,16 @@ sanitized archival copy of the originally submitted 2025 materials.
 results and code, while `2025-thesis-archive` is included only for transparency,
 preserving the originally submitted state before post-submission fixes and cleanup.
 
+## Table of contents
+
+- [Dataset](#dataset)
+- [Round 1 — thesis benchmark (2025)](#round-1--thesis-benchmark-2025)
+- [Round 2 — open-source benchmark (2026)](#round-2--open-source-benchmark-2026)
+- [Methodology notes](#methodology-notes)
+- [API / inference settings](#api-settings)
+- [Reproducibility](#reproducibility)
+- [Structure](#structure)
+
 *💡 Reasoning models are indicated by a lightbulb icon.*
 
 ---
