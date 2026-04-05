@@ -10,7 +10,7 @@ sanitized archival copy of the originally submitted 2025 materials.
 results and code, while `2025-thesis-archive` is included only for transparency,
 preserving the originally submitted state before post-submission fixes and cleanup.
 
-Reasoning models are indicated by a lightbulb icon.
+*💡 Reasoning models are indicated by a lightbulb icon.*
 
 ---
 
@@ -69,6 +69,8 @@ DeepSeek models, which are MIT licensed and have a reported size of
 
 ### Results
 
+*💡 Reasoning models are indicated by a lightbulb icon.*
+
 | Model                              | Score   |
 |------------------------------------|---------|
 | Gemini 2.5 Pro Experimental 💡     | 84/100  |
@@ -121,6 +123,8 @@ Replication of the original benchmark using open-source models only.
 > in this benchmark, including ahead of some substantially larger models.
 
 ### Results
+
+*💡 Reasoning models are indicated by a lightbulb icon.*
 
 | Model                    | Score |
 |--------------------------|-------|
