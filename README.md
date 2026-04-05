@@ -18,7 +18,7 @@ preserving the originally submitted state before post-submission fixes and clean
 - [Round 2 — open-source benchmark (2026)](#round-2--open-source-benchmark-2026)
 - [Results (2026 open-source benchmark)](#results-2026-open-source-benchmark)
 - [Methodology notes](#methodology-notes)
-- [API / inference settings](#api-settings)
+- [API / inference settings](#api--inference-settings)
 - [Reproducibility](#reproducibility)
 - [Structure](#structure)
 
@@ -54,7 +54,7 @@ browsing on GitHub or in spreadsheet tools.
 
 ---
 
-## Round 1 — Thesis Benchmark (2025)
+## Round 1 — thesis benchmark (2025)
 
 All models in this round are proprietary, with the exception of the two
 DeepSeek models, which are MIT licensed and have a reported size of
@@ -102,7 +102,7 @@ Per-question breakdown available in [`2025-thesis/results.csv`](2025-thesis/resu
 
 ---
 
-## Round 2 — Open-source Benchmark (2026)
+## Round 2 — open-source benchmark (2026)
 
 Replication of the original benchmark using open-source models only.
 
@@ -128,6 +128,8 @@ Replication of the original benchmark using open-source models only.
 | Qwen 3.5 122B A10B 💡 | Alibaba   | Apache       | 122B (10B active) |
 | Qwen 3.5 397B A17B  | Alibaba     | Apache       | 397B (17B active) |
 | Qwen 3.5 397B A17B 💡 | Alibaba   | Apache       | 397B (17B active) |
+| Gemma 4 26B A4B     | Google      | Apache       | 26B (4B active)   |
+| Gemma 4 26B A4B 💡  | Google      | Apache       | 26B (4B active)   |
 
 > **Note on Nemotron 3 Super:** NVIDIA's official model card lists the supported
 > languages as English, French, German, Italian, Japanese, Spanish, and Chinese.
@@ -155,8 +157,10 @@ Replication of the original benchmark using open-source models only.
 | MiMo-V2-Flash 💡         | 78/100 |
 | Qwen 3.5 35B A3B         | 77/100 |
 | Nemotron 3 Super 💡      | 75/100 |
+| Gemma 4 26B A4B 💡        | 74/100 |
 | Mistral Small 4 💡       | 73/100 |
-| Nemotron 3 Super        | 72/100 |
+| Nemotron 3 Super         | 72/100 |
+| Gemma 4 26B A4B           | 70/100 |
 | GLM-5                    | 67/100 |
 | Mistral Large 3          | 64/100 |
 | Mistral Small 4          | 50/100 |
@@ -174,7 +178,8 @@ Per-question breakdown available in [`2026-oss/results.csv`](2026-oss/results.cs
 
 - Same 100-question dataset used in both rounds
 - **Both rounds conducted entirely in Slovak** — all questions are in Slovak
-- One API call per question
+- One API call per question for provider-hosted models
+- Gemma 4 runs were benchmarked locally, using one independent inference run per question
 - **No system prompt used in either round** — models received a single user prompt per question, with no additional system instruction layer
 - **Zero-shot evaluation** — one run per question, no examples or additional context provided
 - **`top_p` is never set explicitly** — it is left at each provider's default, since common API guidance recommends adjusting either `temperature` or `top_p`, but not both simultaneously
@@ -191,9 +196,11 @@ Per-question breakdown available in [`2026-oss/results.csv`](2026-oss/results.cs
 
 ---
 
-## API Settings
+## API / inference settings
 
-### Round 1
+This section lists the API parameters used for provider-hosted runs and the local MLX inference settings used for Gemma 4.
+
+### 2025 thesis benchmark
 
 Settings used per model during thesis testing:
 
@@ -218,39 +225,37 @@ Settings used per model during thesis testing:
 - Gemini 2.0 Flash and Gemini 2.5 Pro Experimental 💡 were tested via the `google-generativeai` SDK, with generation settings left at their defaults.
 - Grok 3 and Grok 3 Thinking 💡 were tested manually via the web UI because xAI did not provide an API for more than 40 days after release.
 
-### Round 2
+### 2026 open-source benchmark
 
-| Model                  | Model ID                            | temperature   |
-|------------------------|-------------------------------------|---------------|
-| DeepSeek-V3.2          | `deepseek-chat`                     | `1.0`         |
-| DeepSeek-V3.2 💡       | `deepseek-reasoner`                 | not supported |
-| GLM-5                  | `glm-5`                             | `1.0`         |
-| GLM-5 💡               | `glm-5`                             | `1.0`         |
-| Kimi K2.5              | `kimi-k2.5`                         | `0.6`         |
-| Kimi K2.5 💡           | `kimi-k2.5`                         | `1.0`         |
-| MiMo-V2-Flash 💡       | `mimo-v2-flash`                     | `0.8`         |
-| Mistral Large 3        | `mistral-large-2512`                | `0.3`         |
-| Mistral Small 4        | `mistral-small-2603`                | `0.3`         |
-| Mistral Small 4 💡     | `mistral-small-2603`                | `0.7`         |
-| Nemotron 3 Super       | `nvidia/nemotron-3-super-120b-a12b` | `1.0`         |
-| Nemotron 3 Super 💡    | `nvidia/nemotron-3-super-120b-a12b` | `1.0`         |
-| Qwen 3.5 27B           | `qwen3.5-27b`                       | `0.7`         |
-| Qwen 3.5 27B 💡        | `qwen3.5-27b`                       | `1.0`         |
-| Qwen 3.5 35B A3B       | `qwen3.5-35b-a3b`                   | `0.7`         |
-| Qwen 3.5 35B A3B 💡    | `qwen3.5-35b-a3b`                   | `1.0`         |
-| Qwen 3.5 122B A10B     | `qwen3.5-122b-a10b`                 | `0.7`         |
-| Qwen 3.5 122B A10B 💡  | `qwen3.5-122b-a10b`                 | `1.0`         |
-| Qwen 3.5 397B A17B     | `qwen3.5-397b-a17b`                 | `0.7`         |
-| Qwen 3.5 397B A17B 💡  | `qwen3.5-397b-a17b`                 | `0.6`         |
-
-`max_tokens` was left at the provider default for every Round 2 model except
-`Nemotron 3 Super` and `Nemotron 3 Super 💡`, where the script explicitly set
-`16000`.
+| Model                  | Model ID                            | temperature   | max_tokens |
+|------------------------|-------------------------------------|---------------|------------|
+| DeepSeek-V3.2          | `deepseek-chat`                     | `1.0`         | default    |
+| DeepSeek-V3.2 💡       | `deepseek-reasoner`                 | not supported | default    |
+| GLM-5                  | `glm-5`                             | `1.0`         | default    |
+| GLM-5 💡               | `glm-5`                             | `1.0`         | default    |
+| Kimi K2.5              | `kimi-k2.5`                         | `0.6`         | default    |
+| Kimi K2.5 💡           | `kimi-k2.5`                         | `1.0`         | default    |
+| MiMo-V2-Flash 💡       | `mimo-v2-flash`                     | `0.8`         | default    |
+| Mistral Large 3        | `mistral-large-2512`                | `0.3`         | default    |
+| Mistral Small 4        | `mistral-small-2603`                | `0.3`         | default    |
+| Mistral Small 4 💡     | `mistral-small-2603`                | `0.7`         | default    |
+| Nemotron 3 Super       | `nvidia/nemotron-3-super-120b-a12b` | `1.0`         | `16000`    |
+| Nemotron 3 Super 💡    | `nvidia/nemotron-3-super-120b-a12b` | `1.0`         | `16000`    |
+| Qwen 3.5 27B           | `qwen3.5-27b`                       | `0.7`         | default    |
+| Qwen 3.5 27B 💡        | `qwen3.5-27b`                       | `1.0`         | default    |
+| Qwen 3.5 35B A3B       | `qwen3.5-35b-a3b`                   | `0.7`         | default    |
+| Qwen 3.5 35B A3B 💡    | `qwen3.5-35b-a3b`                   | `1.0`         | default    |
+| Qwen 3.5 122B A10B     | `qwen3.5-122b-a10b`                 | `0.7`         | default    |
+| Qwen 3.5 122B A10B 💡  | `qwen3.5-122b-a10b`                 | `1.0`         | default    |
+| Qwen 3.5 397B A17B     | `qwen3.5-397b-a17b`                 | `0.7`         | default    |
+| Qwen 3.5 397B A17B 💡  | `qwen3.5-397b-a17b`                 | `0.6`         | default    |
+| Gemma 4 26B A4B        | [`mlx-community/gemma-4-26b-a4b-it-4bit`](https://huggingface.co/mlx-community/gemma-4-26b-a4b-it-4bit) | `1.0`     | `8192`     |
+| Gemma 4 26B A4B 💡     | [`mlx-community/gemma-4-26b-a4b-it-4bit`](https://huggingface.co/mlx-community/gemma-4-26b-a4b-it-4bit) | `1.0`     | `32768`    |
 
 Where provider documentation or model cards specified recommended `temperature`
 values, those recommendations were followed.
 
-#### Configuration notes
+#### Notes
 
 - `DeepSeek-V3.2 💡` does not support `temperature`.
 - `GLM-5` and `Kimi K2.5` use explicit `thinking` on/off switches for standard vs reasoning runs.
@@ -258,6 +263,9 @@ values, those recommendations were followed.
 - `Mistral Small 4 💡` sets `reasoning_effort="high"`.
 - `Nemotron 3 Super` uses explicit `enable_thinking` on/off control; the thinking variant also sets `reasoning_budget: 4096`.
 - `Qwen 3.5` models use hybrid thinking mode by default, so standard runs explicitly disable thinking and reasoning runs explicitly enable it.
+- `Gemma 4 26B A4B` and `Gemma 4 26B A4B 💡` were benchmarked locally via [`mlx-vlm 0.4.4`](https://pypi.org/project/mlx-vlm/) on a MacBook Pro with an `M4 Pro` chip and `24 GB` unified memory, using the `mlx-community/gemma-4-26b-a4b-it-4bit` snapshot `8bcfa0de037c2b1bfa323a1e8d1f0132243b9e87`.
+- The Gemma 4 reasoning run used `enable_thinking=True` with no explicit `thinking_budget`.
+- Gemma 4 result files also include runtime telemetry such as token counts, throughput, and peak memory usage.
 
 
 ---
@@ -280,6 +288,8 @@ cp .env.example .env
 ```
 
 Then add the required provider API keys to `.env`.
+
+Gemma 4 runs were executed locally via [`mlx-vlm 0.4.4`](https://pypi.org/project/mlx-vlm/) on an MBP with an `M4 Pro` chip.
 
 ### Running the benchmark
 
