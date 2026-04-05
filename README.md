@@ -14,7 +14,9 @@ preserving the originally submitted state before post-submission fixes and clean
 
 - [Dataset](#dataset)
 - [Round 1 — thesis benchmark (2025)](#round-1--thesis-benchmark-2025)
+- [Results (2025 thesis benchmark)](#results-2025-thesis-benchmark)
 - [Round 2 — open-source benchmark (2026)](#round-2--open-source-benchmark-2026)
+- [Results (2026 open-source benchmark)](#results-2026-open-source-benchmark)
 - [Methodology notes](#methodology-notes)
 - [API / inference settings](#api-settings)
 - [Reproducibility](#reproducibility)
@@ -77,7 +79,7 @@ DeepSeek models, which are MIT licensed and have a reported size of
 > the model's release. Both Grok 3 variants were tested manually via the web UI,
 > so their results are not directly comparable to the API-based runs.
 
-### Results
+### Results (2025 thesis benchmark)
 
 *💡 Reasoning models are indicated by a lightbulb icon.*
 
@@ -132,7 +134,7 @@ Replication of the original benchmark using open-source models only.
 > Despite Slovak not being listed, both Nemotron variants performed competitively
 > in this benchmark, including ahead of some substantially larger models.
 
-### Results
+### Results (2026 open-source benchmark)
 
 *💡 Reasoning models are indicated by a lightbulb icon.*
 
